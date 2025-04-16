@@ -1,0 +1,191 @@
+{"0": {
+    "doc": "Curso de PowerShell & Shell Scripting",
+    "title": "Bem-vindo ao Curso!",
+    "content": "Este curso irá guiá-lo através dos fundamentos de PowerShell e Shell Scripting, introduzindo gradualmente conceitos mais avançados por meio de exercícios práticos e exemplos do mundo real. 🌟 Estrutura do Curso . O curso está dividido em módulos, cada um contendo várias sessões. O conteúdo será progressivamente disponibilizado de acordo com o calendário das aulas. 📅 Horário . | As aulas decorrem às segundas e quartas-feiras, das 19h às 21h. | O curso completo terá uma duração total de 30 horas. | . 📚 Visão Geral dos Módulos e Sessões . Módulo 1: Introdução ao PowerShell e Shell Scripting . | Sessão 1: Conceitos Básicos e Configuração | Sessão 2: Comandos, Navegação e Ajuda | Sessão 3: Output e Personalização | . Módulo 2: Estruturas de Controle e Variáveis . | Sessão 1: Variáveis e Tipos de Dados | Sessão 2: Estruturas Condicionais | Sessão 3: Loops e Iterações | Sessão 4: Exercícios e Prática Dirigida | . Módulo 3: Scripts, Ficheiros e Processos . | Sessão 1: Scripts Básicos e Segurança | Sessão 2: Manipulação de Ficheiros e Diretórios | Sessão 3: Pesquisa e Filtragem | Sessão 4: Gestão de Processos e Serviços | . Módulo 4: Automação de Tarefas no Windows e Linux . | Sessão 1: Tarefas Agendadas e Cron Jobs | Sessão 2: Trabalhar com Serviços e Logs | Sessão 3: Notificações e Relatórios Automatizados | Sessão 4: Projeto Prático Final | . 🔑 Nota . O conteúdo será gradualmente disponibilizado. Por favor, siga de acordo com o calendário das aulas. 🚀 Pronto para começar? . Inicie com a Sessão 1: Conceitos Básicos e Configuração . ",
+    "url": "/Curso_Powershell/#bem-vindo-ao-curso",
+    
+    "relUrl": "/#bem-vindo-ao-curso"
+  },"1": {
+    "doc": "Curso de PowerShell & Shell Scripting",
+    "title": "Curso de PowerShell & Shell Scripting",
+    "content": " ",
+    "url": "/Curso_Powershell/",
+    
+    "relUrl": "/"
+  },"2": {
+    "doc": "Module 2: Estruturas de Controle e Variáveis",
+    "title": "Estruturas de Controle e Variáveis",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module2/#estruturas-de-controle-e-vari%C3%A1veis",
+    
+    "relUrl": "/Modules/Module2/#estruturas-de-controle-e-variáveis"
+  },"3": {
+    "doc": "Module 2: Estruturas de Controle e Variáveis",
+    "title": "Module 2: Estruturas de Controle e Variáveis",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module2/",
+    
+    "relUrl": "/Modules/Module2/"
+  },"4": {
+    "doc": "Module 3: Gestão de Ficheiros e Processos",
+    "title": "Gestão de Ficheiros e Processos",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module3/#gest%C3%A3o-de-ficheiros-e-processos",
+    
+    "relUrl": "/Modules/Module3/#gestão-de-ficheiros-e-processos"
+  },"5": {
+    "doc": "Module 3: Gestão de Ficheiros e Processos",
+    "title": "Module 3: Gestão de Ficheiros e Processos",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module3/",
+    
+    "relUrl": "/Modules/Module3/"
+  },"6": {
+    "doc": "Module 4: Automação de Tarefas no Windows e Linux",
+    "title": "Module 4: Automação de Tarefas no Windows e Linux",
+    "content": "Sessão 1: Tarefas Agendadas e Cron Jobs (2 horas) . 🎯 Objetivo . Aprender a automatizar tarefas recorrentes utilizando agendadores de tarefas no Windows e Linux. 📌 Conteúdos . | Configuração e uso de schtasks (Windows) e cron (Linux) | Automação de tarefas periódicas | Prática: Criar e testar tarefas agendadas | . Sessão 2: Trabalhar com Serviços e Logs (2 horas) . 🎯 Objetivo . Aprender a monitorizar e gerir serviços e logs no Windows e Linux. 📌 Conteúdos . | Comandos para gestão de serviços (Get-Service, systemctl) | Monitorização de logs (Get-EventLog, journalctl) | Prática: Monitorizar e registar logs automaticamente | . Sessão 3: Notificações e Relatórios Automatizados (2 horas) . 🎯 Objetivo . Criar scripts que enviam notificações e geram relatórios automaticamente. 📌 Conteúdos . | Envio de emails automatizados | Relatórios periódicos com dados coletados | Prática: Desenvolver um sistema de notificações | . Sessão 4: Projeto Prático Final (2 horas) . 🎯 Objetivo . Aplicar todos os conceitos aprendidos em um projeto prático completo. 📌 Conteúdos . | Criar um sistema de monitorização de serviços com relatórios automáticos | Discussão e revisão final do curso | . ",
+    "url": "/Curso_Powershell/Modules/Module4/",
+    
+    "relUrl": "/Modules/Module4/"
+  },"7": {
+    "doc": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
+    "title": "🎯 Objetivo do Módulo",
+    "content": "Compreender os fundamentos de PowerShell e Shell Scripting, configurar o ambiente de trabalho e dominar os comandos básicos antes de avançar para lógica e scripting. ",
+    "url": "/Curso_Powershell/Modules/Module1/#-objetivo-do-m%C3%B3dulo",
+    
+    "relUrl": "/Modules/Module1/#-objetivo-do-módulo"
+  },"8": {
+    "doc": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
+    "title": "📌 Estrutura do Módulo",
+    "content": "Sessões: . | Sessão 1: Conceitos Básicos e Configuração (2 horas) . | Introdução, instalação, configuração do ambiente e primeiros passos na consola. | . | Sessão 2: Comandos, Navegação e Ajuda (2 horas) . | Exploração de comandos, navegação no sistema de ficheiros, ajuda integrada e tipos de comandos. | . | Sessão 3: Comparação e Prática Dirigida (2 horas) . | Revisão de conceitos, exercícios práticos e comparação entre PowerShell e Bash. | . | . ",
+    "url": "/Curso_Powershell/Modules/Module1/#-estrutura-do-m%C3%B3dulo",
+    
+    "relUrl": "/Modules/Module1/#-estrutura-do-módulo"
+  },"9": {
+    "doc": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
+    "title": "📅 Duração Total: 6 horas",
+    "content": ". 🚀 Pronto para começar? . Inicie com a Sessão 1: Conceitos Básicos e Configuração . ",
+    "url": "/Curso_Powershell/Modules/Module1/#-dura%C3%A7%C3%A3o-total-6-horas",
+    
+    "relUrl": "/Modules/Module1/#-duração-total-6-horas"
+  },"10": {
+    "doc": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
+    "title": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/",
+    
+    "relUrl": "/Modules/Module1/"
+  },"11": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "Sessão 1: Conceitos Básicos e Configuração (2 horas)",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#sess%C3%A3o-1-conceitos-b%C3%A1sicos-e-configura%C3%A7%C3%A3o-2-horas",
+    
+    "relUrl": "/Modules/Module1/session1.html#sessão-1-conceitos-básicos-e-configuração-2-horas"
+  },"12": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "🎯 Objetivo",
+    "content": "Introduzir os conceitos básicos de PowerShell e Shell Scripting, compará-los, e configurar o ambiente de trabalho. ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#-objetivo",
+    
+    "relUrl": "/Modules/Module1/session1.html#-objetivo"
+  },"13": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "1. Introdução (20 min)",
+    "content": "1.1 O que é um Shell? . | Um Shell é um programa que serve como interface entre o utilizador e o sistema operacional. Ele recebe comandos do utilizador, interpreta esses comandos e instrui o sistema operacional a executá-los. Os resultados da execução são então exibidos de volta ao utilizador. | Existem dois tipos principais de Shells: | . Shells de Linha de Comando (CLI - Command Line Interface): . | Interfaces textuais onde o usuário interage digitando comandos e recebendo respostas em forma de texto. | Exemplos: PowerShell, Bash, cmd.exe (Prompt de Comando do Windows). | . Shells Gráficos (GUI - Graphical User Interface): . | Interfaces visuais com ícones, janelas e menus. | Exemplos: Windows Explorer, Finder no macOS. | . 1.2 O que é PowerShell? . | PowerShell é um exemplo de shell de linha de comando e uma linguagem de script integrados em um único ambiente. | Foi inicialmente projetado como uma framework para automatizar tarefas administrativas no Windows, mas evoluiu para uma ferramenta multiplataforma disponível em Windows, Linux e MacOS. | Atualmente, é utilizado para diversos tipos de tarefas, como administração de sistemas, automação de fluxos de trabalho e integração com serviços na cloud. | O PowerShell oferece muitos comandos úteis, mas suas capacidades podem ser expandidas a qualquer momento pela instalação de módulos adicionais. | Baseia-se em .NET e inclui uma linguagem de scripting, bem como um interpretador de linha de comandos. | Permite a automação de tarefas administrativas no Windows, Linux e MacOS. | . 1.3 Diferença entre CMD e PowerShell no Windows . O CMD (Command Prompt) e o PowerShell são ambos Shells de linha de comando no Windows, mas têm diferenças fundamentais em termos de capacidade, sintaxe, funcionalidade e uso. | Aspecto | CMD (Command Prompt) | PowerShell | . | Lançamento | Década de 1980 (MS-DOS, Windows NT) | 2006 (Windows PowerShell), 2016 (PowerShell Core) | . | Linguagem | Não é uma linguagem de programação completa. | Linguagem de scripting poderosa e orientada a objetos. | . | Comandos | Baseados em MS-DOS e Windows NT. Ex.: dir, copy, del. | Usa cmdlets (Get-Process, Get-Service) e aceita comandos do CMD. | . | Suporte a Objetos | Trabalha apenas com texto puro. | Trabalha com objetos .NET, permitindo manipulação avançada de dados. | . | Automação | Limitada, mais adequada para tarefas básicas. | Ideal para automação de sistemas, CI/CD, gerenciamento de servidores e cloud. | . | Pipeline | Simples (envia texto de um comando para outro). | Complexo e poderoso (envia objetos completos entre cmdlets). | . | Compatibilidade | Compatível com comandos antigos do MS-DOS. | Compatível com comandos do CMD, mas oferece muito mais funcionalidades. | . | Integração | Focado apenas no sistema operacional local. | Pode gerenciar sistemas locais, remotos e na nuvem (Azure, AWS). | . | Editor Integrado | Não possui. | Inclui PowerShell ISE e é totalmente integrado ao Visual Studio Code. | . | Exemplos de Uso | dir, ipconfig, netstat. | Get-Process, Get-Service, Get-Command, Invoke-RestMethod. | . 1.4 🚀 Resumo . | CMD: É antigo, limitado e trabalha apenas com texto puro. Ideal para tarefas básicas e rápidas. | PowerShell: É moderno, poderoso e trabalha com objetos, facilitando automação avançada, administração de sistemas e integração com plataformas na nuvem. | . 1.5 O que é Shell Scripting? . | Shell Scripting é um método de automatizar tarefas por meio de scripts executados pelo Shell do sistema operacional. | Amplamente utilizado em sistemas Unix/Linux, mas também disponível no Windows (especialmente com o WSL - Windows Subsystem for Linux). | Inclui linguagens como Bash, Zsh, e outras. | . 1.6 Casos de uso típicos de cada linguagem: . | PowerShell: Administração de sistemas Windows, automatização de tarefas de infraestrutura em Azure, manipulação de arquivos e relatórios. | Bash: Gestão de servidores Linux, manipulação de arquivos e diretórios, automatização de backups e processos de instalação. | . 1.7 Funcionalidades do PowerShell . | Sistema de Ajuda Integrado: Get-Help Get-Process . | Pipeline Poderoso: Get-Process | Where-Object {$_.CPU -gt 100} . | Aliases: Exemplo: ls, cls, cd funcionam no PowerShell. | . 1.8 Como o PowerShell é Diferente de Shells Tradicionais . | Trabalha com objetos, não com texto. | Usa cmdlets com sintaxe Verbo-Substantivo. | Diferentes tipos de comandos: executáveis, cmdlets, funções, aliases. | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#1-introdu%C3%A7%C3%A3o-20-min",
+    
+    "relUrl": "/Modules/Module1/session1.html#1-introdução-20-min"
+  },"14": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "2. Instalação e Configuração do Ambiente (30 min)",
+    "content": "2.1 Windows PowerShell vs. PowerShell Core . Windows PowerShell . | Plataforma: Apenas Windows. | Baseado em: .NET Framework (antigo e obsoleto para novos projetos). | Última versão: 5.1 (Lançada em 2016, com últimas atualizações de segurança em 2019). | Instalação: Pré-instalado em versões modernas do Windows (Windows 7 SP1, Windows Server 2008 R2 e posteriores). | Objetivo Principal: Administração de sistemas Windows e automação de tarefas locais. | Limitações: . | Apenas disponível no Windows, sem suporte para Linux ou MacOS. | Não suporta .NET Core ou versões modernas de .NET. | Desenvolvimento interrompido, apenas com atualizações de segurança. | . | Recomendação: Usar apenas para manter compatibilidade com sistemas antigos ou quando funcionalidades específicas do Windows PowerShell são necessárias. | . PowerShell Core (Agora chamado apenas de PowerShell) . | Plataforma: Multiplataforma (Windows, Linux, MacOS). | Baseado em: .NET Core / .NET 5+ (mais recente, mais eficiente e de código aberto). | Última versão: 7.x (Atualizado regularmente). | Instalação: Disponível para download no GitHub. | Objetivo Principal: Automação e administração de sistemas em múltiplas plataformas, incluindo integração com serviços em cloud (Azure, AWS, etc). | Vantagens: . | Funciona em múltiplos sistemas operacionais. | Melhor desempenho, menor consumo de memória e suporte para APIs modernas do .NET. | Desenvolvimento ativo e contínuo com novas funcionalidades. | Melhor compatibilidade com plataformas cloud e ferramentas DevOps. | . | Recomendação: Ideal para novos projetos, especialmente quando a compatibilidade multiplataforma é necessária. | . 💡 Nota: Desde a versão 7.0, o PowerShell Core é simplesmente chamado de PowerShell. 2.2 Bash no Linux, MacOS e Windows (WSL) . Linux e MacOS . | Disponibilidade: O Bash é instalado por padrão em praticamente todas as distribuições Linux e no MacOS. | Alternativas: Pode ser substituído por shells modernos como zsh, fish, ou ksh. | Popularidade: Especialmente comum em sistemas Linux, onde é usado para tarefas administrativas, scripts de inicialização e automação. | Atualização: No Linux, pode ser atualizado usando o sistema de pacotes da distribuição (ex.: apt, yum, dnf). | . Windows (WSL - Windows Subsystem for Linux) . | Disponibilidade: Disponível nativamente no Windows 10 e 11. | Objetivo: Permitir que os utilizadores executem um ambiente Linux diretamente no Windows sem necessidade de uma máquina virtual completa. | Vantagens: . | Permite desenvolver e testar scripts Bash nativamente no Windows. | Fácil integração com ferramentas de desenvolvimento modernas (ex.: Docker). | Melhor suporte para automação e ferramentas Linux em ambientes Windows. | . | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#2-instala%C3%A7%C3%A3o-e-configura%C3%A7%C3%A3o-do-ambiente-30-min",
+    
+    "relUrl": "/Modules/Module1/session1.html#2-instalação-e-configuração-do-ambiente-30-min"
+  },"15": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "3. Como Instalar e Configurar PowerShell Core e Bash",
+    "content": "3.1 Instalar PowerShell (Core) . | Windows (WinGet - Recomendado): winget install --id Microsoft.PowerShell --source winget . | Windows (MSI Installer): . | Baixar o instalador mais recente do GitHub Releases. | Executar o instalador e seguir as instruções. | . | Linux (Debian/Ubuntu): sudo apt-get install -y powershell . | Linux (Fedora/CentOS/RHEL): sudo dnf install -y powershell . | MacOS (via Homebrew): brew install --cask powershell . | Executar o PowerShell: pwsh . | . 3.2 Instalar Bash no Windows (WSL) . | Habilitar o WSL: wsl --install . | Listar distribuições disponiveis wsl --list --online . | Instalar uma distribuição específica (ex.: Ubuntu): wsl --install -d Ubuntu . | Verificar a versão do WSL instalada: wsl -l -v . | Atualizar o WSL para a versão 2: wsl --set-default-version 2 . | Executar o Bash no Windows: wsl . Comandos úteis do WSL . | wsl -l: Lista todas as distribuições WSL instaladas. | wsl -d &lt;distribution name&gt;: Inicia uma nova sessão WSL usando a distribuição especificada. | wsl --shutdown: Encerra todas as sessões WSL em execução. | wsl --terminate &lt;distribution name&gt;: Termina a sessão WSL da distribuição especificada. | wsl --default &lt;distribution name&gt; ou wsl --setdefault &lt;distribution name&gt;: Define a distribuição WSL padrão (usada quando se executa apenas wsl no terminal). | wsl --terminate &lt;distribution name&gt;: Termina uma distribuição WSL em execução. | wsl --shutdown: Encerra todas as instâncias WSL em execução. | . 🔗 Referências: . | https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5 | https://www.gnu.org/software/bash/manual/ | https://learn.microsoft.com/en-us/windows/wsl/install | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#3-como-instalar-e-configurar-powershell-core-e-bash",
+    
+    "relUrl": "/Modules/Module1/session1.html#3-como-instalar-e-configurar-powershell-core-e-bash"
+  },"16": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "4. Primeiros Comandos Básicos (40 min)",
+    "content": "4.1 Comandos Comuns em PowerShell e Bash . (tabela pwd, ls, cd, etc.) . 4.2 Diferenças entre PowerShell e Bash . | PowerShell usa objetos e cmdlets. | Bash usa texto e comandos Unix-like. | . 4.3 🔍 Exemplo Prático de Diferença: Objetos vs. Texto . | PowerShell: Get-Process | Where-Object { $_.CPU -gt 100 } . | Bash: top -b -n 1 | awk '{ if($9 &gt; 0.1) print $0 }' . | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#4-primeiros-comandos-b%C3%A1sicos-40-min",
+    
+    "relUrl": "/Modules/Module1/session1.html#4-primeiros-comandos-básicos-40-min"
+  },"17": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "5. Prática (30 min)",
+    "content": "5.1 💻 Exercício 1: Onde estamos? . pwd . pwd . 5.2 💻 Exercício 2: O que existe aqui? . ls ls | Format-List . ls ls -l . 5.3 💻 Exercício 3: Criar diretórios . mkdir Aula1 . mkdir Aula1 . 5.4 💻 Exercício 4: Entrar e sair da pasta . cd Aula1 cd .. cd Aula1 cd .. 5.5 💻 Exercício 5: Criar um ficheiro vazio . New-Item -Name exemplo.txt -ItemType File . touch exemplo.txt . 📦 Estes exercícios servem como base para comandos mais avançados que serão explorados nas sessões seguintes. ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#5-pr%C3%A1tica-30-min",
+    
+    "relUrl": "/Modules/Module1/session1.html#5-prática-30-min"
+  },"18": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "Session 1: Conceitos Básicos e Configuração",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html",
+    
+    "relUrl": "/Modules/Module1/session1.html"
+  },"19": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "🧭 Sessão 2: Comandos, Navegação e Ajuda",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#-sess%C3%A3o-2-comandos-navega%C3%A7%C3%A3o-e-ajuda",
+    
+    "relUrl": "/Modules/Module1/session2.html#-sessão-2-comandos-navegação-e-ajuda"
+  },"20": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "🎯 Objetivo",
+    "content": "Explorar os comandos essenciais para trabalhar com PowerShell, aprender a navegar no sistema de ficheiros, interpretar a saída dos comandos e utilizar a ajuda integrada. ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#-objetivo",
+    
+    "relUrl": "/Modules/Module1/session2.html#-objetivo"
+  },"21": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "1. 📖 Ajuda e Descoberta de Comandos",
+    "content": "Uma das grandes forças do PowerShell é a sua documentação integrada. Comandos como Get-Help e Get-Command permitem ao utilizador aprender diretamente a partir da consola. 1.1 ℹ️ Nota Importante: . Se vires uma mensagem como: . “Cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.” . Significa que o PowerShell está a mostrar apenas uma versão resumida. Podes: . | Tentar usar Update-Help para descarregar a versão completa (se tiveres permissões) | Usar Update-Help -UICulture en-US -ErrorAction SilentlyContinue para contornar restrições de idioma ou permissões | Usar o modo online: Get-Help Get-Process -Online | . 1.2 🧪 Exemplos: . Get-Help Get-Process # Mostra a ajuda básica Get-Help Get-Process -Examples # Mostra exemplos práticos Get-Help Get-Process -Online # Abre no browser Get-Command *service* # Procura comandos relacionados Get-Help Get-Service -Detailed # Mostra informação detalhada . 1.3 🔍 Como ler o output do Help: . cls Get-Help Get-Service -Detailed . Este comando permite verificar: . | Name: nome do cmdlet | Synopsis: descrição breve | Syntax: formas de utilização | Description: descrição detalhada | Parameters: explicação de cada parâmetro | Remarks: observações adicionais, como compatibilidade | . cls Get-Help Get-Service -Examples . Este comando premite verificar os exemplos de utilização práticos. 1.4 🔎 Comando para inspecionar objetos: . Get-Service | Get-Member . O Get-Member permite ver as propriedades (ex: Status, DisplayName) e métodos dos objetos devolvidos. Get-Service | Select-Object Status, DisplayName, ServiceType . 🧩 Exercícios . Neste exercício vais aprender a usar a ajuda integrada no PowerShell para perceber como um comando funciona. Passos: . | Abre o PowerShell | Corre o seguinte comando para ver uma lista de todos os serviços no sistema: Get-Service . Depois, experimenta filtrar por nome: . | Um serviço específico: Get-Service wuauserv . | Usando um wildcard (por exemplo, todos os que começam por “c”): Get-Service c* . | . | Escreve o seguinte comando para veres a ajuda básica: Get-Help Get-Service | Vê os exemplos com: Get-Help Get-Service -Examples | Tenta abrir a ajuda online (se possível): Get-Help Get-Service -Online | Usa o Get-Member para descobrir que propriedades existem em objetos de serviço. Depois usa Select-Object para escolher apenas as propriedades que permitam ver o Status, Nome do utilizador e tipo de serviço. Exemplo de solução Get-Service | Get-Member Get-Service | Select-Object Status, UserName, ServiceType . | Cria um comando que obtenha os detalhes de um ou mais processos que costumas usar, como chrome, notepad, ou outro processo que esteja a correr no teu sistema. Queremos listar os seguintes detalhes: . | Nome do processo | ID (PID - {completa}) | Utilização de CPU (CPU - mostra o tempo total de CPU utilizado (em segundos).) | Memória utilizada (Working Set - mostra a memória física (em bytes) usada pelo processo.) | Tempo de execução (StartTime - {completa}) | Estado (Responding - indica se a aplicação está a responder (True ou False)) | . Exemplo de solução Get-Process chrome | Select-Object Name, Id, CPU, WorkingSet, StartTime, Responding . | . 💡 Dica: Experimenta com diferentes nomes de processos (ex: notepad, powershell, explorer) e compara os valores. ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#1--ajuda-e-descoberta-de-comandos",
+    
+    "relUrl": "/Modules/Module1/session2.html#1--ajuda-e-descoberta-de-comandos"
+  },"22": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "2. 🔌 Providers",
+    "content": "No PowerShell, providers são interfaces que permitem aceder, navegar e manipular diferentes tipos de armazenamento (como o sistema de ficheiros, o registo do Windows ou variáveis de ambiente) usando comandos comuns como Get-ChildItem ou Set-Location, tal como farias com pastas e ficheiros. Ou seja, mesmo que estejas a trabalhar com algo que não é um disco (como variáveis ou chaves de registo), podes usar os mesmos comandos de navegação como se estivesses a explorar um sistema de pastas. Podes ver todos os providers disponíveis no teu sistema com o seguinte comando: . Get-PSProvider . 2.1 📂 FileSystem . Permite interagir com pastas e ficheiros no disco, tal como estamos habituados. Este é o provider usado por omissão quando abrimos o PowerShell. 2.2 🧬 Registry . Permite navegar no registo do Windows como se fosse uma estrutura de pastas. Tem dois “drives”: HKLM: (Local Machine) e HKCU: (Current User). Exemplos: . Set-Location HKCU:\\Software Get-ChildItem HKLM:\\SYSTEM . 2.3 🌱 Environment . Permite aceder e modificar variáveis de ambiente (como PATH, TEMP, USERNAME, etc). Exemplos: . Get-ChildItem Env: $Env:USERNAME $Env:TEMP . 2.4 🏷️ Alias . Permite listar e criar atalhos (aliases) para comandos do PowerShell. Exemplos: . Get-ChildItem Alias: Get-Alias ls New-Alias listar Get-ChildItem . ✅ Outros providers . Consoante o sistema ou módulos carregados, podem existir outros providers disponíveis. Por exemplo: . | Function: – acede às funções definidas no PowerShell. | Variable: – acede às variáveis em memória. | . Para mais detalhes sobre providers no PowerShell, consulta a documentação oficial: 🔗 about_Providers - PowerShell Documentation . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#2--providers",
+    
+    "relUrl": "/Modules/Module1/session2.html#2--providers"
+  },"23": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "3. 📁 Navegação no Sistema de Ficheiros",
+    "content": "3.1 🧪 Comandos úteis: . Get-Location # Mostra a localização atual (pwd) Set-Location .. # Sobe um nível (cd ..) Get-ChildItem # Lista ficheiros e pastas (ls) Clear-Host # Limpa o terminal (cls) Push-Location # Guarda a localização atual Pop-Location # Volta à localização guardada . 3.2 🌐 Dicas: . | -Force mostra ficheiros ocultos. | Caminhos relativos (ex: ..\\Documentos) mudam com a localização atual. | Caminhos absolutos (ex: C:\\Users\\Nome\\Documentos) são sempre os mesmos. | Usa ~ para ir para a tua pasta pessoal. | . 3.3 🧩 Exercícios . 💡 Nota: Usa sempre os cmdlets do PowerShell como Set-Location ou Get-ChildItem em vez dos comandos do bash como cd ou ls. Neste exercício vais praticar os comandos de navegação no sistema de ficheiros no PowerShell. Passos: . | Abre o PowerShell. | Vai para a tua pasta pessoal: Código Set-Location ~ . | Corre o seguinte comando para criar a estrutura de pastas: . New-Item -Path \"~\\CursoPS\\Modulo1\\Exemplos\" -ItemType Directory -Force . | Verifica a estrutura final de pastas executando o seguinte: Set-Location ~ Get-ChildItem -Recurse \"CursoPS\" . Estrutura esperada: . CursoPS │ └── Modulo1 │ └── Exemplos . | Navega até à pasta CursoPS: Código Set-Location \"~\\CursoPS\" . | Navega até à pasta Modulo1 usando caminho relativo: Código Set-Location .\\Modulo1 . | Agora navega até à pasta Exemplos usando: . | Caminho relativo: Código Set-Location .\\Exemplos . | Caminho absoluto: Código Set-Location \"~\\CursoPS\\Modulo1\\Exemplos\" . | . | Testa a navegação com Push-Location e Pop-Location: . | Guarda a localização atual, vai para outro local, e volta: Push-Location Set-Location ~ Pop-Location . | . | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#3--navega%C3%A7%C3%A3o-no-sistema-de-ficheiros",
+    
+    "relUrl": "/Modules/Module1/session2.html#3--navegação-no-sistema-de-ficheiros"
+  },"24": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "4. 🌱 Variáveis de ambiente",
+    "content": "O provider Environment permite aceder e manipular variáveis de ambiente do sistema operativo diretamente no PowerShell. Estas variáveis são usadas por aplicações e scripts para obter informações como o nome do utilizador, a pasta temporária, o caminho de instalação, entre outras. 4.1 📋 Consultar variáveis . Podes ver todas as variáveis de ambiente com: . Get-ChildItem Env: . Para consultar uma variável específica: . $Env:USERNAME $Env:PATH $Env:TEMP . 4.2 ✏️ Alterar ou definir variáveis (temporariamente) . Podes criar ou alterar variáveis diretamente: . $Env:NOVAVARIAVEL = \"Valor de teste\" $Env:PATH += \";C:\\Ferramentas\" . ⚠️ Estas alterações só duram enquanto a sessão do PowerShell estiver ativa. 4.3 🧼 Remover variáveis . Podes remover uma variável da sessão com: . Remove-Item Env:NOVAVARIAVEL . 4.4 🧩 Exercícios . Vamos experimentar criar e aceder a variáveis de ambiente. | Cria uma nova variável chamada “CURSO” e com o valor “PowerShell &amp; Shell Scripting” Código $Env:CURSO = \"PowerShell &amp; Shell Scripting\" . | Verifica o valor: Código $Env:CURSO . | Acede à variável usando letras minúsculas: $Env:curso . O que observas? . Explicação No PowerShell, as variáveis de ambiente não são sensíveis a maiúsculas ou minúsculas. Ou seja, $Env:CURSO, $Env:curso e $Env:Curso referem-se exatamente à mesma variável. Isto acontece porque o provider Environment está ligado ao sistema operativo Windows, que também não distingue entre maiúsculas e minúsculas neste contexto. | Remove a variável: Remove-Item Env:CURSO . | Refaz os exercícios do ponto 3 (navegar no sistema de ficheiros), mas em vez de usares ~ para aceder à tua pasta pessoal, usa a variável de ambiente $Env:USERPROFILE. | Vai para a tua pasta pessoal: Set-Location $Env:USERPROFILE . | Se necessário cria novamente a estrutura de pastas: New-Item -Path \"$Env:USERPROFILE\\CursoPS\\Modulo1\\Exemplos\" -ItemType Directory -Force . | Explora a estrutura usando comandos de navegação como Set-Location, Get-Location e Push-Location. | . | . 💡 Dica: Podes confirmar que $Env:USERPROFILE e ~ apontam para o mesmo local com: . \"$Env:USERPROFILE\" Resolve-Path ~ . 4.5 📌 Nota importante . As variáveis definidas ou alteradas com $Env: só afetam a sessão atual do PowerShell. Se quiseres definir variáveis de ambiente de forma permanente (por exemplo, para todas as sessões), precisas de usar ferramentas do sistema operativo ou editar as definições no Painel de Controlo (Windows) ou via registo (Registry). Podes combinar este provider com outros comandos para criar scripts mais dinâmicos e adaptáveis ao ambiente onde estão a correr. ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#4--vari%C3%A1veis-de-ambiente",
+    
+    "relUrl": "/Modules/Module1/session2.html#4--variáveis-de-ambiente"
+  },"25": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "5. 🏷️ Alias",
+    "content": "No PowerShell, um alias é um nome alternativo (geralmente mais curto) para um comando. Isto permite escrever comandos de forma mais rápida ou usar nomes familiares (por exemplo, do Bash). Exemplo: ls é um alias para Get-ChildItem. Podes ver todos os aliases disponíveis com: . Get-Alias . 5.1 🔎 Exemplos simples . Verifica o comando por trás de um alias: . Get-Alias ls . Podes ver todos os aliases que apontam para Get-ChildItem com: . Get-Alias | Where-Object {$_.Definition -eq 'Get-ChildItem'} . Resultado será algo como: . | dir | gci | ls | . Cria um alias personalizado: . New-Alias listar Get-ChildItem . Usa o alias que criaste: . listar . Remove o alias: . Remove-Item Alias:listar . ⚠️ Aliases personalizados só duram durante a sessão atual. Mais à frente veremos como personalizar o profile do utilizador e criar aliases persistentes. 5.2 🔗 Documentação oficial . about_Aliases - PowerShell Documentation . 5.3 🧩 Exercícios . | Descobre que comando está por trás dos seguintes aliases: . | ls | pwd | cls | . | Cria um alias chamado meuservicos para o comando Get-Service. | . Resposta New-Alias meuservicos Get-Service . | Corre o alias meuservicos e confirma que funciona. meuservicos . | Remove o alias meuservicos. | . Resposta Remove-Item Alias:meuservicos . | Cria um alias chamado procativos para o comando Get-Process. | . Resposta New-Alias procativos Get-Process procativos . 💡 Dica: Como os aliases não aceitam argumentos ou pipelines, devem ser usados apenas para comandos simples. Para comandos mais complexos, como Get-Service | Select-Object …, considera criar uma função. ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#5-%EF%B8%8F-alias",
+    
+    "relUrl": "/Modules/Module1/session2.html#5-️-alias"
+  },"26": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "Sessão 2: Comandos, Navegação e Ajuda",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html",
+    
+    "relUrl": "/Modules/Module1/session2.html"
+  }
+}
