@@ -1,0 +1,618 @@
+{"0": {
+    "doc": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
+    "title": "🎯 Objetivo do Módulo",
+    "content": "Compreender os fundamentos de PowerShell e Shell Scripting, configurar o ambiente de trabalho e dominar os comandos básicos antes de avançar para lógica e scripting. ",
+    "url": "/Curso_Powershell/Modules/Module1/#-objetivo-do-m%C3%B3dulo",
+    
+    "relUrl": "/Modules/Module1/#-objetivo-do-módulo"
+  },"1": {
+    "doc": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
+    "title": "📌 Estrutura do Módulo",
+    "content": "Sessões: . | Sessão 1: Conceitos Básicos e Configuração . | Introdução, instalação, configuração do ambiente e primeiros passos na consola. | . | Sessão 2: Comandos, Navegação e Ajuda . | Exploração de comandos, navegação no sistema de ficheiros, ajuda integrada e tipos de comandos. | . | Sessão 3: Objetos, parâmetros, pipeline, output, exportações Interpretação do output, manipulação de objetos, propriedades e métodos, formatação e redirecionamento de resultados. | . 🚀 Pronto para começar? . Inicie com a Sessão 1: Conceitos Básicos e Configuração . ",
+    "url": "/Curso_Powershell/Modules/Module1/#-estrutura-do-m%C3%B3dulo",
+    
+    "relUrl": "/Modules/Module1/#-estrutura-do-módulo"
+  },"2": {
+    "doc": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
+    "title": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/",
+    
+    "relUrl": "/Modules/Module1/"
+  },"3": {
+    "doc": "Module 4: Automação de Tarefas no Windows e Linux",
+    "title": "Module 4: Automação de Tarefas no Windows e Linux",
+    "content": "Sessão 1: Tarefas Agendadas e Cron Jobs (2 horas) . 🎯 Objetivo . Aprender a automatizar tarefas recorrentes utilizando agendadores de tarefas no Windows e Linux. 📌 Conteúdos . | Configuração e uso de schtasks (Windows) e cron (Linux) | Automação de tarefas periódicas | Prática: Criar e testar tarefas agendadas | . Sessão 2: Trabalhar com Serviços e Logs (2 horas) . 🎯 Objetivo . Aprender a monitorizar e gerir serviços e logs no Windows e Linux. 📌 Conteúdos . | Comandos para gestão de serviços (Get-Service, systemctl) | Monitorização de logs (Get-EventLog, journalctl) | Prática: Monitorizar e registar logs automaticamente | . Sessão 3: Notificações e Relatórios Automatizados (2 horas) . 🎯 Objetivo . Criar scripts que enviam notificações e geram relatórios automaticamente. 📌 Conteúdos . | Envio de emails automatizados | Relatórios periódicos com dados coletados | Prática: Desenvolver um sistema de notificações | . Sessão 4: Projeto Prático Final (2 horas) . 🎯 Objetivo . Aplicar todos os conceitos aprendidos em um projeto prático completo. 📌 Conteúdos . | Criar um sistema de monitorização de serviços com relatórios automáticos | Discussão e revisão final do curso | . ",
+    "url": "/Curso_Powershell/Modules/Module4/",
+    
+    "relUrl": "/Modules/Module4/"
+  },"4": {
+    "doc": "Module 3: Gestão de Ficheiros e Processos",
+    "title": "Gestão de Ficheiros e Processos",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module3/#gest%C3%A3o-de-ficheiros-e-processos",
+    
+    "relUrl": "/Modules/Module3/#gestão-de-ficheiros-e-processos"
+  },"5": {
+    "doc": "Module 3: Gestão de Ficheiros e Processos",
+    "title": "Module 3: Gestão de Ficheiros e Processos",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module3/",
+    
+    "relUrl": "/Modules/Module3/"
+  },"6": {
+    "doc": "Módulo 2: Lógica, Variáveis e Scripting",
+    "title": "🎯 Objetivo do Módulo",
+    "content": "Aprender a construir lógica usando variáveis, condições, ciclos e scripts reutilizáveis em PowerShell. Este módulo prepara-te para escrever scripts mais avançados e automatizar tarefas com eficiência. ",
+    "url": "/Curso_Powershell/Modules/Module2/#-objetivo-do-m%C3%B3dulo",
+    
+    "relUrl": "/Modules/Module2/#-objetivo-do-módulo"
+  },"7": {
+    "doc": "Módulo 2: Lógica, Variáveis e Scripting",
+    "title": "📌 Estrutura do Módulo",
+    "content": ". | Sessão 1: Criar e Executar Scripts Como escrever scripts, permissões de execução, estrutura de scripts, usar variáveis e lógica dentro de ficheiros .ps1. | Sessão 2: Variáveis e Tipos de Dados Variáveis primitivas (string, int, bool), variáveis compostas (arrays, hashtables), e operadores básicos. | Sessão 3: Estruturas Condicionais Uso de if, elseif, else, operadores de comparação e booleanos. | Sessão 4: Loops e Iterações for, foreach, while, do-until, uso em cenários reais como validações ou repetição de comandos. | Sessão 5: Introdução a Funções Simples Definir funções (function Nome {}), passar parâmetros, reutilizar código e boas práticas básicas. | . 🚀 Pronto para começar? . Inicie com a Sessão 1: Criar e Executar Scripts . ",
+    "url": "/Curso_Powershell/Modules/Module2/#-estrutura-do-m%C3%B3dulo",
+    
+    "relUrl": "/Modules/Module2/#-estrutura-do-módulo"
+  },"8": {
+    "doc": "Módulo 2: Lógica, Variáveis e Scripting",
+    "title": "Módulo 2: Lógica, Variáveis e Scripting",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module2/",
+    
+    "relUrl": "/Modules/Module2/"
+  },"9": {
+    "doc": "Curso de PowerShell & Shell Scripting",
+    "title": "Bem-vindo ao Curso!",
+    "content": "Este curso irá guiá-lo através dos fundamentos de PowerShell e Shell Scripting, introduzindo gradualmente conceitos mais avançados por meio de exercícios práticos e exemplos do mundo real. 🌟 Estrutura do Curso . O curso está dividido em módulos, cada um contendo várias sessões. O conteúdo será progressivamente disponibilizado de acordo com o calendário das aulas. 📅 Horário . | As aulas decorrem às segundas e quartas-feiras, das 19h às 21h. | O curso completo terá uma duração total de 30 horas. | . 📚 Visão Geral dos Módulos e Sessões . Módulo 1: Introdução ao PowerShell e Shell Scripting . Fundamentos essenciais para começares a trabalhar com PowerShell de forma produtiva. Aprende a explorar o ambiente, comandos e o comportamento dos objetos. | Sessão 1: Conceitos Básicos e Configuração Instalação, configuração do ambiente, primeiros comandos na consola. | Sessão 2: Comandos, Navegação e Ajuda Navegar no sistema de ficheiros, explorar comandos e utilizar a ajuda integrada. | Sessão 3: Objetos, parâmetros, pipeline, output, exportações Compreender o sistema de objetos do PowerShell, formatação de output, exportações e boas práticas no uso de comandos | . Módulo 2: Lógica, Variáveis e Scripting . Aprende a construir a tua lógica com variáveis, condições, ciclos e scripts reutilizáveis. | Sessão 1: Criar e Executar Scripts Variáveis primitivas (string, int, bool), variáveis compostas (arrays, hashtables), e operadores básicos. | Sessão 2: Variáveis e Tipos de Dados Uso de if, elseif, else, operadores de comparação e booleanos. | Sessão 3: Loops e Iterações for, foreach, while, do-until, uso em cenários reais como validações ou repetição de comandos. | Sessão 4: Criar e Executar Scripts Como escrever scripts, permissões de execução, estrutura de scripts, usar variáveis e lógica dentro de ficheiros .ps1. | Sessão 5: Introdução a Funções Simples Definir funções (function Nome {}), passar parâmetros, reutilizar código e boas práticas básicas. | . Módulo 3: Scripts, Ficheiros e Processos . Trabalha com ficheiros, diretórios e processos do sistema. Automatiza tarefas do dia-a-dia com scripts mais robustos. | Sessão 1: Scripts Básicos e Segurança Execução de scripts, permissões, paths relativos vs absolutos, input do utilizador. | Sessão 2: Scripts Temáticos com Ficheiros Automatizar tarefas do dia-a-dia com ficheiros: contar linhas, procurar conteúdo, renomear, organizar pastas. | Sessão 3: Pesquisa, Filtragem e Exportação Criar relatórios com Where-Object, Select-String, Export-Csv, pesquisa recursiva e tratamento de grandes volumes. | Sessão 4: Processos e Serviços Monitorizar uso de CPU, listar processos ativos, criar logs, gerir serviços com Start-Service e Stop-Service. | Sessão 5: Desafio de Automatização Criar um script completo que automatize a recolha e exportação de informação sobre o sistema. | . Módulo 4: Automação de Tarefas no Windows e Linux . Usa o PowerShell para criar automações reais, com tarefas agendadas, notificações e integração com ficheiros de log. | Sessão 1: Tarefas Agendadas e Cron Jobs Criar e gerir tarefas agendadas no Windows ou cron jobs no Linux. | Sessão 2: Trabalhar com Serviços e Logs Exportar logs de eventos, monitorizar serviços, criar alertas simples. | Sessão 3: Notificações e Relatórios Automatizados Gerar relatórios CSV ou HTML, enviar por email, alertas com popups. | Sessão 4: Projeto Prático Final Desafio para consolidar conhecimentos: criar um script completo com lógica, ciclos, exportação e agendamento. | . 🔑 Nota . O conteúdo será gradualmente disponibilizado. Por favor, siga de acordo com o calendário das aulas. 🚀 Pronto para começar? . Inicie com a Sessão 1: Conceitos Básicos e Configuração . ",
+    "url": "/Curso_Powershell/#bem-vindo-ao-curso",
+    
+    "relUrl": "/#bem-vindo-ao-curso"
+  },"10": {
+    "doc": "Curso de PowerShell & Shell Scripting",
+    "title": "Curso de PowerShell & Shell Scripting",
+    "content": " ",
+    "url": "/Curso_Powershell/",
+    
+    "relUrl": "/"
+  },"11": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "🧭 Sessão 1: Conceitos Básicos e Configuração",
+    "content": ". 🎯 Objetivo Introduzir os conceitos básicos de PowerShell e Shell Scripting, compará-los, e configurar o ambiente de trabalho. ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html",
+    
+    "relUrl": "/Modules/Module1/session1.html"
+  },"12": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "1. Introdução (20 min)",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#1-introdu%C3%A7%C3%A3o-20-min",
+    
+    "relUrl": "/Modules/Module1/session1.html#1-introdução-20-min"
+  },"13": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "1.1. O que é um Shell?",
+    "content": ". | Um Shell é um programa que serve como interface entre o utilizador e o sistema operacional. Ele recebe comandos do utilizador, interpreta esses comandos e instrui o sistema operacional a executá-los. Os resultados da execução são então exibidos de volta ao utilizador. | Existem dois tipos principais de Shells: | . Shells de Linha de Comando (CLI - Command Line Interface): . | Interfaces textuais onde o usuário interage digitando comandos e recebendo respostas em forma de texto. | Exemplos: PowerShell, Bash, cmd.exe (Prompt de Comando do Windows). | . Shells Gráficos (GUI - Graphical User Interface): . | Interfaces visuais com ícones, janelas e menus. | Exemplos: Windows Explorer, Finder no macOS. | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#11-o-que-%C3%A9-um-shell",
+    
+    "relUrl": "/Modules/Module1/session1.html#11-o-que-é-um-shell"
+  },"14": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "1.2. O que é PowerShell?",
+    "content": ". | PowerShell é um exemplo de shell de linha de comando e uma linguagem de script integrados em um único ambiente. | Foi inicialmente projetado como uma framework para automatizar tarefas administrativas no Windows, mas evoluiu para uma ferramenta multiplataforma disponível em Windows, Linux e MacOS. | Atualmente, é utilizado para diversos tipos de tarefas, como administração de sistemas, automação de fluxos de trabalho e integração com serviços na cloud. | O PowerShell oferece muitos comandos úteis, mas suas capacidades podem ser expandidas a qualquer momento pela instalação de módulos adicionais. | Baseia-se em .NET e inclui uma linguagem de scripting, bem como um interpretador de linha de comandos. | Permite a automação de tarefas administrativas no Windows, Linux e MacOS. | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#12-o-que-%C3%A9-powershell",
+    
+    "relUrl": "/Modules/Module1/session1.html#12-o-que-é-powershell"
+  },"15": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "1.3. Diferença entre CMD e PowerShell no Windows",
+    "content": "O CMD (Command Prompt) e o PowerShell são ambos Shells de linha de comando no Windows, mas têm diferenças fundamentais em termos de capacidade, sintaxe, funcionalidade e uso. | Aspecto | CMD (Command Prompt) | PowerShell | . | Lançamento | Década de 1980 (MS-DOS, Windows NT) | 2006 (Windows PowerShell), 2016 (PowerShell Core) | . | Linguagem | Não é uma linguagem de programação completa. | Linguagem de scripting poderosa e orientada a objetos. | . | Comandos | Baseados em MS-DOS e Windows NT. Ex.: dir, copy, del. | Usa cmdlets (Get-Process, Get-Service) e aceita comandos do CMD. | . | Suporte a Objetos | Trabalha apenas com texto puro. | Trabalha com objetos .NET, permitindo manipulação avançada de dados. | . | Automação | Limitada, mais adequada para tarefas básicas. | Ideal para automação de sistemas, CI/CD, gerenciamento de servidores e cloud. | . | Pipeline | Simples (envia texto de um comando para outro). | Complexo e poderoso (envia objetos completos entre cmdlets). | . | Compatibilidade | Compatível com comandos antigos do MS-DOS. | Compatível com comandos do CMD, mas oferece muito mais funcionalidades. | . | Integração | Focado apenas no sistema operacional local. | Pode gerenciar sistemas locais, remotos e na nuvem (Azure, AWS). | . | Editor Integrado | Não possui. | Inclui PowerShell ISE e é totalmente integrado ao Visual Studio Code. | . | Exemplos de Uso | dir, ipconfig, netstat. | Get-Process, Get-Service, Get-Command, Invoke-RestMethod. | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#13-diferen%C3%A7a-entre-cmd-e-powershell-no-windows",
+    
+    "relUrl": "/Modules/Module1/session1.html#13-diferença-entre-cmd-e-powershell-no-windows"
+  },"16": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "1.4. 🚀 Resumo",
+    "content": ". | CMD: É antigo, limitado e trabalha apenas com texto puro. Ideal para tarefas básicas e rápidas. | PowerShell: É moderno, poderoso e trabalha com objetos, facilitando automação avançada, administração de sistemas e integração com plataformas na nuvem. | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#14--resumo",
+    
+    "relUrl": "/Modules/Module1/session1.html#14--resumo"
+  },"17": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "1.5. O que é Shell Scripting?",
+    "content": ". | Shell Scripting é um método de automatizar tarefas por meio de scripts executados pelo Shell do sistema operacional. | Amplamente utilizado em sistemas Unix/Linux, mas também disponível no Windows (especialmente com o WSL - Windows Subsystem for Linux). | Inclui linguagens como Bash, Zsh, e outras. | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#15-o-que-%C3%A9-shell-scripting",
+    
+    "relUrl": "/Modules/Module1/session1.html#15-o-que-é-shell-scripting"
+  },"18": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "1.6. Casos de uso típicos de cada linguagem:",
+    "content": ". | PowerShell: Administração de sistemas Windows, automatização de tarefas de infraestrutura em Azure, manipulação de arquivos e relatórios. | Bash: Gestão de servidores Linux, manipulação de arquivos e diretórios, automatização de backups e processos de instalação. | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#16-casos-de-uso-t%C3%ADpicos-de-cada-linguagem",
+    
+    "relUrl": "/Modules/Module1/session1.html#16-casos-de-uso-típicos-de-cada-linguagem"
+  },"19": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "1.7. Funcionalidades do PowerShell",
+    "content": ". | Sistema de Ajuda Integrado: Get-Help Get-Process . | Pipeline Poderoso: Get-Process | Where-Object {$_.CPU -gt 100} . | Aliases: Exemplo: ls, cls, cd funcionam no PowerShell. | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#17-funcionalidades-do-powershell",
+    
+    "relUrl": "/Modules/Module1/session1.html#17-funcionalidades-do-powershell"
+  },"20": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "1.8. Como o PowerShell é Diferente de Shells Tradicionais",
+    "content": ". | Trabalha com objetos, não com texto. | Usa cmdlets com sintaxe Verbo-Substantivo. | Diferentes tipos de comandos: executáveis, cmdlets, funções, aliases. | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#18-como-o-powershell-%C3%A9-diferente-de-shells-tradicionais",
+    
+    "relUrl": "/Modules/Module1/session1.html#18-como-o-powershell-é-diferente-de-shells-tradicionais"
+  },"21": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "2. Instalação e Configuração do Ambiente",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#2-instala%C3%A7%C3%A3o-e-configura%C3%A7%C3%A3o-do-ambiente",
+    
+    "relUrl": "/Modules/Module1/session1.html#2-instalação-e-configuração-do-ambiente"
+  },"22": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "2.1. Windows PowerShell vs. PowerShell Core",
+    "content": "Windows PowerShell . | Plataforma: Apenas Windows. | Baseado em: .NET Framework (antigo e obsoleto para novos projetos). | Última versão: 5.1 (Lançada em 2016, com últimas atualizações de segurança em 2019). | Instalação: Pré-instalado em versões modernas do Windows (Windows 7 SP1, Windows Server 2008 R2 e posteriores). | Objetivo Principal: Administração de sistemas Windows e automação de tarefas locais. | Limitações: . | Apenas disponível no Windows, sem suporte para Linux ou MacOS. | Não suporta .NET Core ou versões modernas de .NET. | Desenvolvimento interrompido, apenas com atualizações de segurança. | . | Recomendação: Usar apenas para manter compatibilidade com sistemas antigos ou quando funcionalidades específicas do Windows PowerShell são necessárias. | . PowerShell Core (Agora chamado apenas de PowerShell) . | Plataforma: Multiplataforma (Windows, Linux, MacOS). | Baseado em: .NET Core / .NET 5+ (mais recente, mais eficiente e de código aberto). | Última versão: 7.x (Atualizado regularmente). | Instalação: Disponível para download no GitHub. | Objetivo Principal: Automação e administração de sistemas em múltiplas plataformas, incluindo integração com serviços em cloud (Azure, AWS, etc). | Vantagens: . | Funciona em múltiplos sistemas operacionais. | Melhor desempenho, menor consumo de memória e suporte para APIs modernas do .NET. | Desenvolvimento ativo e contínuo com novas funcionalidades. | Melhor compatibilidade com plataformas cloud e ferramentas DevOps. | . | Recomendação: Ideal para novos projetos, especialmente quando a compatibilidade multiplataforma é necessária. | . 💡 Nota: Desde a versão 7.0, o PowerShell Core é simplesmente chamado de PowerShell. ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#21-windows-powershell-vs-powershell-core",
+    
+    "relUrl": "/Modules/Module1/session1.html#21-windows-powershell-vs-powershell-core"
+  },"23": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "2.2. Bash no Linux, MacOS e Windows (WSL)",
+    "content": "Linux e MacOS . | Disponibilidade: O Bash é instalado por padrão em praticamente todas as distribuições Linux e no MacOS. | Alternativas: Pode ser substituído por shells modernos como zsh, fish, ou ksh. | Popularidade: Especialmente comum em sistemas Linux, onde é usado para tarefas administrativas, scripts de inicialização e automação. | Atualização: No Linux, pode ser atualizado usando o sistema de pacotes da distribuição (ex.: apt, yum, dnf). | . Windows (WSL - Windows Subsystem for Linux) . | Disponibilidade: Disponível nativamente no Windows 10 e 11. | Objetivo: Permitir que os utilizadores executem um ambiente Linux diretamente no Windows sem necessidade de uma máquina virtual completa. | Vantagens: . | Permite desenvolver e testar scripts Bash nativamente no Windows. | Fácil integração com ferramentas de desenvolvimento modernas (ex.: Docker). | Melhor suporte para automação e ferramentas Linux em ambientes Windows. | . | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#22-bash-no-linux-macos-e-windows-wsl",
+    
+    "relUrl": "/Modules/Module1/session1.html#22-bash-no-linux-macos-e-windows-wsl"
+  },"24": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "3. Como Instalar e Configurar PowerShell Core e Bash",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#3-como-instalar-e-configurar-powershell-core-e-bash",
+    
+    "relUrl": "/Modules/Module1/session1.html#3-como-instalar-e-configurar-powershell-core-e-bash"
+  },"25": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "3.1. Instalar PowerShell (Core)",
+    "content": ". | Windows (WinGet - Recomendado): winget install --id Microsoft.PowerShell --source winget . | Windows (MSI Installer): . | Baixar o instalador mais recente do GitHub Releases. | Executar o instalador e seguir as instruções. | . | Linux (Debian/Ubuntu): sudo apt-get install -y powershell . | Linux (Fedora/CentOS/RHEL): sudo dnf install -y powershell . | MacOS (via Homebrew): brew install --cask powershell . | Executar o PowerShell: pwsh . | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#31-instalar-powershell-core",
+    
+    "relUrl": "/Modules/Module1/session1.html#31-instalar-powershell-core"
+  },"26": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "3.2. Instalar Bash no Windows (WSL)",
+    "content": ". | Habilitar o WSL: wsl --install . | Listar distribuições disponiveis wsl --list --online . | Instalar uma distribuição específica (ex.: Ubuntu): wsl --install -d Ubuntu . | Verificar a versão do WSL instalada: wsl -l -v . | Atualizar o WSL para a versão 2: wsl --set-default-version 2 . | Executar o Bash no Windows: wsl . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#32-instalar-bash-no-windows-wsl",
+    
+    "relUrl": "/Modules/Module1/session1.html#32-instalar-bash-no-windows-wsl"
+  },"27": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "3.3. Comandos úteis do WSL",
+    "content": "| wsl -l: Lista todas as distribuições WSL instaladas. | wsl -d &lt;distribution name&gt;: Inicia uma nova sessão WSL usando a distribuição especificada. | wsl --shutdown: Encerra todas as sessões WSL em execução. | wsl --terminate &lt;distribution name&gt;: Termina a sessão WSL da distribuição especificada. | wsl --default &lt;distribution name&gt; ou wsl --setdefault &lt;distribution name&gt;: Define a distribuição WSL padrão (usada quando se executa apenas wsl no terminal). | wsl --terminate &lt;distribution name&gt;: Termina uma distribuição WSL em execução. | wsl --shutdown: Encerra todas as instâncias WSL em execução. | . 🔗 Referências: . | https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.5 | https://www.gnu.org/software/bash/manual/ | https://learn.microsoft.com/en-us/windows/wsl/install | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#33-comandos-%C3%BAteis-do-wsl",
+    
+    "relUrl": "/Modules/Module1/session1.html#33-comandos-úteis-do-wsl"
+  },"28": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "4. Primeiros Comandos Básicos",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#4-primeiros-comandos-b%C3%A1sicos",
+    
+    "relUrl": "/Modules/Module1/session1.html#4-primeiros-comandos-básicos"
+  },"29": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "4.1. Comandos Comuns em PowerShell e Bash",
+    "content": "(tabela pwd, ls, cd, etc.) . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#41-comandos-comuns-em-powershell-e-bash",
+    
+    "relUrl": "/Modules/Module1/session1.html#41-comandos-comuns-em-powershell-e-bash"
+  },"30": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "4.2. Diferenças entre PowerShell e Bash",
+    "content": ". | PowerShell usa objetos e cmdlets. | Bash usa texto e comandos Unix-like. | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#42-diferen%C3%A7as-entre-powershell-e-bash",
+    
+    "relUrl": "/Modules/Module1/session1.html#42-diferenças-entre-powershell-e-bash"
+  },"31": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "4.3. 🔍 Exemplo Prático de Diferença: Objetos vs. Texto",
+    "content": ". | PowerShell: Get-Process | Where-Object { $_.CPU -gt 100 } . | Bash: top -b -n 1 | awk '{ if($9 &gt; 0.1) print $0 }' . | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#43--exemplo-pr%C3%A1tico-de-diferen%C3%A7a-objetos-vs-texto",
+    
+    "relUrl": "/Modules/Module1/session1.html#43--exemplo-prático-de-diferença-objetos-vs-texto"
+  },"32": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "5. Prática",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#5-pr%C3%A1tica",
+    
+    "relUrl": "/Modules/Module1/session1.html#5-prática"
+  },"33": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "5.1. 💻 Exercício 1: Onde estamos?",
+    "content": "pwd . pwd . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#51--exerc%C3%ADcio-1-onde-estamos",
+    
+    "relUrl": "/Modules/Module1/session1.html#51--exercício-1-onde-estamos"
+  },"34": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "5.2. 💻 Exercício 2: O que existe aqui?",
+    "content": "ls ls | Format-List . ls ls -l . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#52--exerc%C3%ADcio-2-o-que-existe-aqui",
+    
+    "relUrl": "/Modules/Module1/session1.html#52--exercício-2-o-que-existe-aqui"
+  },"35": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "5.3. 💻 Exercício 3: Criar diretórios",
+    "content": "mkdir Aula1 . mkdir Aula1 . ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#53--exerc%C3%ADcio-3-criar-diret%C3%B3rios",
+    
+    "relUrl": "/Modules/Module1/session1.html#53--exercício-3-criar-diretórios"
+  },"36": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "5.4. 💻 Exercício 4: Entrar e sair da pasta",
+    "content": "cd Aula1 cd .. cd Aula1 cd .. ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#54--exerc%C3%ADcio-4-entrar-e-sair-da-pasta",
+    
+    "relUrl": "/Modules/Module1/session1.html#54--exercício-4-entrar-e-sair-da-pasta"
+  },"37": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "5.5. 💻 Exercício 5: Criar um ficheiro vazio",
+    "content": "New-Item -Name exemplo.txt -ItemType File . touch exemplo.txt . 📦 Estes exercícios servem como base para comandos mais avançados que serão explorados nas sessões seguintes. ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html#55--exerc%C3%ADcio-5-criar-um-ficheiro-vazio",
+    
+    "relUrl": "/Modules/Module1/session1.html#55--exercício-5-criar-um-ficheiro-vazio"
+  },"38": {
+    "doc": "Session 1: Conceitos Básicos e Configuração",
+    "title": "Session 1: Conceitos Básicos e Configuração",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session1.html",
+    
+    "relUrl": "/Modules/Module1/session1.html"
+  },"39": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "🧭 Sessão 2: Comandos, Navegação e Ajuda",
+    "content": ". 🎯 Objetivo . Explorar os comandos essenciais para trabalhar com PowerShell, aprender a navegar no sistema de ficheiros, interpretar a saída dos comandos e utilizar a ajuda integrada. | 1. 📖 Ajuda e Descoberta de Comandos . | 1.1. 🧪 Exemplos | 1.2. 🔍 Como ler o output do Help | 1.3. 🔎 Comando para inspecionar objetos | 1.4. 🧩 Exercícios | . | 2. 🔌 Providers . | 2.1. 📂 FileSystem | 2.2. 🧬 Registry | 2.3. 🌱 Environment | 2.4. 🏷️ Alias | 2.5. ✅ Outros providers | . | 3. 📁 Navegação no Sistema de Ficheiros . | 3.1. 🧪 Comandos úteis | 3.2. 🌐 Dicas | 3.3. 🧩 Exercícios | . | 4. 🌱 Variáveis de ambiente . | 4.1. 📋 Consultar variáveis | 4.2. ✏️ Alterar ou definir variáveis (temporariamente) | 4.3. 🧼 Remover variáveis | 4.4. 🧩 Exercícios | 4.5. 🔍 Diferença entre $ e $Env: | . | 5. 🏷️ Alias . | 5.1. 🔎 Exemplos simples | 5.2. 🧩 Exercícios | . | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html",
+    
+    "relUrl": "/Modules/Module1/session2.html"
+  },"40": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "1. 📖 Ajuda e Descoberta de Comandos",
+    "content": "Uma das grandes forças do PowerShell é a sua documentação integrada. Comandos como Get-Help e Get-Command permitem ao utilizador aprender diretamente a partir da consola. ℹ️ Nota Importante: Se vires uma mensagem como: “Cannot find the Help files for this cmdlet on this computer. It is displaying only partial help.” Significa que o PowerShell está a mostrar apenas uma versão resumida. Podes: . | Tentar usar Update-Help para descarregar a versão completa (se tiveres permissões) | Usar Update-Help -UICulture en-US -ErrorAction SilentlyContinue para contornar restrições de idioma ou permissões | Usar o modo online: Get-Help Get-Process -Online | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#1--ajuda-e-descoberta-de-comandos",
+    
+    "relUrl": "/Modules/Module1/session2.html#1--ajuda-e-descoberta-de-comandos"
+  },"41": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "1.1. 🧪 Exemplos",
+    "content": "Get-Help Get-Process # Mostra a ajuda básica Get-Help Get-Process -Examples # Mostra exemplos práticos Get-Help Get-Process -Online # Abre no browser Get-Command *service* # Procura comandos relacionados Get-Help Get-Service -Detailed # Mostra informação detalhada . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#11--exemplos",
+    
+    "relUrl": "/Modules/Module1/session2.html#11--exemplos"
+  },"42": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "1.2. 🔍 Como ler o output do Help",
+    "content": "cls Get-Help Get-Service -Detailed . Este comando permite verificar: . | Name: nome do cmdlet | Synopsis: descrição breve | Syntax: formas de utilização | Description: descrição detalhada | Parameters: explicação de cada parâmetro | Remarks: observações adicionais, como compatibilidade | . cls Get-Help Get-Service -Examples . Este comando premite verificar os exemplos de utilização práticos. ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#12--como-ler-o-output-do-help",
+    
+    "relUrl": "/Modules/Module1/session2.html#12--como-ler-o-output-do-help"
+  },"43": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "1.3. 🔎 Comando para inspecionar objetos",
+    "content": "Get-Service | Get-Member . O Get-Member permite ver as propriedades (ex: Status, DisplayName) e métodos dos objetos devolvidos. Get-Service | Select-Object Status, DisplayName, ServiceType . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#13--comando-para-inspecionar-objetos",
+    
+    "relUrl": "/Modules/Module1/session2.html#13--comando-para-inspecionar-objetos"
+  },"44": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "1.4. 🧩 Exercícios",
+    "content": "Neste exercício vais aprender a usar a ajuda integrada no PowerShell para perceber como um comando funciona. Passos: . | Abre o PowerShell | Corre o seguinte comando para ver uma lista de todos os serviços no sistema: Get-Service . Depois, experimenta filtrar por nome: . | Um serviço específico: Get-Service wuauserv . | Usando um wildcard (por exemplo, todos os que começam por “c”): Get-Service c* . | . | Escreve o seguinte comando para veres a ajuda básica: Get-Help Get-Service | Vê os exemplos com: Get-Help Get-Service -Examples | Tenta abrir a ajuda online (se possível): Get-Help Get-Service -Online | Usa o Get-Member para descobrir que propriedades existem em objetos de serviço. Depois usa Select-Object para escolher apenas as propriedades que permitam ver o Status, Nome do utilizador e tipo de serviço. Exemplo de solução Get-Service | Get-Member Get-Service | Select-Object Status, UserName, ServiceType . | Cria um comando que obtenha os detalhes de um ou mais processos que costumas usar, como chrome, notepad, ou outro processo que esteja a correr no teu sistema. Queremos listar os seguintes detalhes: . | Nome do processo | ID (PID - {completa}) | Utilização de CPU (CPU - mostra o tempo total de CPU utilizado (em segundos).) | Memória utilizada (Working Set - mostra a memória física (em bytes) usada pelo processo.) | Tempo de execução (StartTime - {completa}) | Estado (Responding - indica se a aplicação está a responder (True ou False)) | . Exemplo de solução Get-Process chrome | Select-Object Name, Id, CPU, WorkingSet, StartTime, Responding . | . 💡 Dica: Experimenta com diferentes nomes de processos (ex: notepad, powershell, explorer) e compara os valores. ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#14--exerc%C3%ADcios",
+    
+    "relUrl": "/Modules/Module1/session2.html#14--exercícios"
+  },"45": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "2. 🔌 Providers",
+    "content": "No PowerShell, providers são interfaces que permitem aceder, navegar e manipular diferentes tipos de armazenamento (como o sistema de ficheiros, o registo do Windows ou variáveis de ambiente) usando comandos comuns como Get-ChildItem ou Set-Location, tal como farias com pastas e ficheiros. Ou seja, mesmo que estejas a trabalhar com algo que não é um disco (como variáveis ou chaves de registo), podes usar os mesmos comandos de navegação como se estivesses a explorar um sistema de pastas. Podes ver todos os providers disponíveis no teu sistema com o seguinte comando: . Get-PSProvider . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#2--providers",
+    
+    "relUrl": "/Modules/Module1/session2.html#2--providers"
+  },"46": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "2.1. 📂 FileSystem",
+    "content": "Permite interagir com pastas e ficheiros no disco, tal como estamos habituados. Este é o provider usado por omissão quando abrimos o PowerShell. ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#21--filesystem",
+    
+    "relUrl": "/Modules/Module1/session2.html#21--filesystem"
+  },"47": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "2.2. 🧬 Registry",
+    "content": "Permite navegar no registo do Windows como se fosse uma estrutura de pastas. Tem dois “drives”: HKLM: (Local Machine) e HKCU: (Current User). Exemplos: . Set-Location HKCU:\\Software Get-ChildItem HKLM:\\SYSTEM . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#22--registry",
+    
+    "relUrl": "/Modules/Module1/session2.html#22--registry"
+  },"48": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "2.3. 🌱 Environment",
+    "content": "Permite aceder e modificar variáveis de ambiente (como PATH, TEMP, USERNAME, etc). Exemplos: . Get-ChildItem Env: $Env:USERNAME $Env:TEMP . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#23--environment",
+    
+    "relUrl": "/Modules/Module1/session2.html#23--environment"
+  },"49": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "2.4. 🏷️ Alias",
+    "content": "Permite listar e criar atalhos (aliases) para comandos do PowerShell. Exemplos: . Get-ChildItem Alias: Get-Alias ls New-Alias listar Get-ChildItem . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#24-%EF%B8%8F-alias",
+    
+    "relUrl": "/Modules/Module1/session2.html#24-️-alias"
+  },"50": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "2.5. ✅ Outros providers",
+    "content": "Consoante o sistema ou módulos carregados, podem existir outros providers disponíveis. Por exemplo: . | Function: – acede às funções definidas no PowerShell. | Variable: – acede às variáveis em memória. | . Para mais detalhes sobre providers no PowerShell, consulta a documentação oficial: 🔗 about_Providers - PowerShell Documentation . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#25--outros-providers",
+    
+    "relUrl": "/Modules/Module1/session2.html#25--outros-providers"
+  },"51": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "3. 📁 Navegação no Sistema de Ficheiros",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#3--navega%C3%A7%C3%A3o-no-sistema-de-ficheiros",
+    
+    "relUrl": "/Modules/Module1/session2.html#3--navegação-no-sistema-de-ficheiros"
+  },"52": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "3.1. 🧪 Comandos úteis",
+    "content": "Get-Location # Mostra a localização atual (pwd) Set-Location .. # Sobe um nível (cd ..) Get-ChildItem # Lista ficheiros e pastas (ls) Clear-Host # Limpa o terminal (cls) Push-Location # Guarda a localização atual Pop-Location # Volta à localização guardada . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#31--comandos-%C3%BAteis",
+    
+    "relUrl": "/Modules/Module1/session2.html#31--comandos-úteis"
+  },"53": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "3.2. 🌐 Dicas",
+    "content": ". | -Force mostra ficheiros ocultos. | Caminhos relativos (ex: ..\\Documentos) mudam com a localização atual. | Caminhos absolutos (ex: C:\\Users\\Nome\\Documentos) são sempre os mesmos. | Usa ~ para ir para a tua pasta pessoal. | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#32--dicas",
+    
+    "relUrl": "/Modules/Module1/session2.html#32--dicas"
+  },"54": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "3.3. 🧩 Exercícios",
+    "content": "Nota: Usa sempre os cmdlets do PowerShell como Set-Location ou Get-ChildItem em vez dos comandos do bash como cd ou ls. Neste exercício vais praticar os comandos de navegação no sistema de ficheiros no PowerShell. Passos: . | Abre o PowerShell. | Vai para a tua pasta pessoal: Código Set-Location ~ . | Corre o seguinte comando para criar a estrutura de pastas: . New-Item -Path \"~\\CursoPS\\Modulo1\\Exemplos\" -ItemType Directory -Force . | Verifica a estrutura final de pastas executando o seguinte: Set-Location ~ Get-ChildItem -Recurse \"CursoPS\" . Estrutura esperada: . CursoPS │ └── Modulo1 │ └── Exemplos . | Navega até à pasta CursoPS: Código Set-Location \"~\\CursoPS\" . | Navega até à pasta Modulo1 usando caminho relativo: Código Set-Location .\\Modulo1 . | Agora navega até à pasta Exemplos usando: . | Caminho relativo: Código Set-Location .\\Exemplos . | Caminho absoluto: Código Set-Location \"~\\CursoPS\\Modulo1\\Exemplos\" . | . | Testa a navegação com Push-Location e Pop-Location: . | Guarda a localização atual, vai para outro local, e volta: Push-Location Set-Location ~ Pop-Location . | . | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#33--exerc%C3%ADcios",
+    
+    "relUrl": "/Modules/Module1/session2.html#33--exercícios"
+  },"55": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "4. 🌱 Variáveis de ambiente",
+    "content": "O provider Environment permite aceder e manipular variáveis de ambiente do sistema operativo diretamente no PowerShell. Estas variáveis são usadas por aplicações e scripts para obter informações como o nome do utilizador, a pasta temporária, o caminho de instalação, entre outras. Os restantes tipos de variáveis são vistos na sessão 3 . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#4--vari%C3%A1veis-de-ambiente",
+    
+    "relUrl": "/Modules/Module1/session2.html#4--variáveis-de-ambiente"
+  },"56": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "4.1. 📋 Consultar variáveis",
+    "content": "Podes ver todas as variáveis de ambiente com: . Get-ChildItem Env: . Para consultar uma variável específica: . $Env:USERNAME $Env:PATH $Env:TEMP . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#41--consultar-vari%C3%A1veis",
+    
+    "relUrl": "/Modules/Module1/session2.html#41--consultar-variáveis"
+  },"57": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "4.2. ✏️ Alterar ou definir variáveis (temporariamente)",
+    "content": "Podes criar ou alterar variáveis diretamente: . $Env:NOVAVARIAVEL = \"Valor de teste\" $Env:PATH += \";C:\\Ferramentas\" . ⚠️ Estas alterações só duram enquanto a sessão do PowerShell estiver ativa. ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#42-%EF%B8%8F-alterar-ou-definir-vari%C3%A1veis-temporariamente",
+    
+    "relUrl": "/Modules/Module1/session2.html#42-️-alterar-ou-definir-variáveis-temporariamente"
+  },"58": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "4.3. 🧼 Remover variáveis",
+    "content": "Podes remover uma variável da sessão com: . Remove-Item Env:NOVAVARIAVEL . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#43--remover-vari%C3%A1veis",
+    
+    "relUrl": "/Modules/Module1/session2.html#43--remover-variáveis"
+  },"59": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "4.4. 🧩 Exercícios",
+    "content": "Vamos experimentar criar e aceder a variáveis de ambiente. | Cria uma nova variável chamada “CURSO” e com o valor “PowerShell &amp; Shell Scripting” Código $Env:CURSO = \"PowerShell &amp; Shell Scripting\" . | Verifica o valor: Código $Env:CURSO . | Acede à variável usando letras minúsculas: $Env:curso . O que observas? . Explicação No PowerShell, as variáveis de ambiente não são sensíveis a maiúsculas ou minúsculas. Ou seja, $Env:CURSO, $Env:curso e $Env:Curso referem-se exatamente à mesma variável. Isto acontece porque o provider Environment está ligado ao sistema operativo Windows, que também não distingue entre maiúsculas e minúsculas neste contexto. | Remove a variável: Remove-Item Env:CURSO . | Refaz os exercícios do ponto 3 (navegar no sistema de ficheiros), mas em vez de usares ~ para aceder à tua pasta pessoal, usa a variável de ambiente $Env:USERPROFILE. | Vai para a tua pasta pessoal: Set-Location $Env:USERPROFILE . | Se necessário cria novamente a estrutura de pastas: New-Item -Path \"$Env:USERPROFILE\\CursoPS\\Modulo1\\Exemplos\" -ItemType Directory -Force . | Explora a estrutura usando comandos de navegação como Set-Location, Get-Location e Push-Location. | . | . 💡 Dica: Podes confirmar que $Env:USERPROFILE e ~ apontam para o mesmo local com: . \"$Env:USERPROFILE\" Resolve-Path ~ . ℹ️ Nota Importante: As variáveis definidas ou alteradas com $Env: só afetam a sessão atual do PowerShell. Se quiseres definir variáveis de ambiente de forma permanente (por exemplo, para todas as sessões), precisas de usar ferramentas do sistema operativo ou editar as definições no Painel de Controlo (Windows) ou via registo (Registry). Podes combinar este provider com outros comandos para criar scripts mais dinâmicos e adaptáveis ao ambiente onde estão a correr. ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#44--exerc%C3%ADcios",
+    
+    "relUrl": "/Modules/Module1/session2.html#44--exercícios"
+  },"60": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "4.5. 🔍 Diferença entre $ e $Env:",
+    "content": "Quando usas apenas o símbolo $, estás a trabalhar com variáveis normais do PowerShell, que existem apenas na sessão atual e são controladas pelo próprio PowerShell. Quando usas $Env:, estás a aceder a variáveis de ambiente do sistema operativo, através do provider Environment. Comparação: . | Exemplo | Tipo de variável | Persistência | Acessível fora do PowerShell? | . | $nome = \"Joana\" | Variável do PowerShell | Sessão atual | ❌ Não | . | $Env:NOME = \"Joana\" | Variável de ambiente | Sessão atual (ou permanente, se configurada no SO) | ✅ Sim (herdada por apps lançadas a partir desta sessão) | . 🔍 Verificação prática: Para comprovar a diferença entre variáveis normais e variáveis de ambiente fora do PowerShell: Cria as duas variáveis no PowerShell: . $normal = \"sou normal\" $Env:AMBIENTE = \"sou ambiente\" . Abre uma nova sessão do CMD a partir do PowerShell: . cmd /d /k echo %normal% . cmd /d /k echo %AMBIENTE% . | /d – Desativa a execução automática de comandos definidos na variável de ambiente AutoRun. Útil para garantir que o CMD começa com um ambiente “limpo”, sem comandos automáticos. | /k – Executa o comando indicado e mantém a janela do CMD aberta depois. Se usasses /c em vez de /k, o CMD fechar-se-ia logo após o echo. | . Observa o resultado: . %normal% sou ambiente . ✅ Explicação: . %normal% aparece como texto literal porque $normal é uma variável interna do PowerShell — não é herdada por outras aplicações ou shells. %AMBIENTE% mostra o valor correto porque $Env:AMBIENTE é uma variável de ambiente, e essas são automaticamente visíveis por processos filhos como o CMD. ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#45--diferen%C3%A7a-entre--e-env",
+    
+    "relUrl": "/Modules/Module1/session2.html#45--diferença-entre--e-env"
+  },"61": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "5. 🏷️ Alias",
+    "content": "No PowerShell, um alias é um nome alternativo (geralmente mais curto) para um comando. Isto permite escrever comandos de forma mais rápida ou usar nomes familiares (por exemplo, do Bash). Exemplo: ls é um alias para Get-ChildItem. Podes ver todos os aliases disponíveis com: . Get-Alias . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#5-%EF%B8%8F-alias",
+    
+    "relUrl": "/Modules/Module1/session2.html#5-️-alias"
+  },"62": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "5.1. 🔎 Exemplos simples",
+    "content": "Verifica o comando por trás de um alias: . Get-Alias ls . Podes ver todos os aliases que apontam para Get-ChildItem com: . Get-Alias | Where-Object {$_.Definition -eq 'Get-ChildItem'} . Resultado será algo como: . | dir | gci | ls | . Cria um alias personalizado: . New-Alias listar Get-ChildItem . Usa o alias que criaste: . listar . Remove o alias: . Remove-Item Alias:listar . ⚠️ Aliases personalizados só duram durante a sessão atual. Mais à frente veremos como personalizar o profile do utilizador e criar aliases persistentes. 🔗 Documentação oficial about_Aliases - PowerShell Documentation . ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#51--exemplos-simples",
+    
+    "relUrl": "/Modules/Module1/session2.html#51--exemplos-simples"
+  },"63": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "5.2. 🧩 Exercícios",
+    "content": ". | Descobre que comando está por trás dos seguintes aliases: . | ls | pwd | cls | . | Cria um alias chamado meuservicos para o comando Get-Service. | . Resposta New-Alias meuservicos Get-Service . | Corre o alias meuservicos e confirma que funciona. meuservicos . | Remove o alias meuservicos. | . Resposta Remove-Item Alias:meuservicos . | Cria um alias chamado procativos para o comando Get-Process. | . Resposta New-Alias procativos Get-Process procativos . 💡 Dica: Como os aliases não aceitam argumentos ou pipelines, devem ser usados apenas para comandos simples. Para comandos mais complexos, como Get-Service | Select-Object …, considera criar uma função. ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html#52--exerc%C3%ADcios",
+    
+    "relUrl": "/Modules/Module1/session2.html#52--exercícios"
+  },"64": {
+    "doc": "Sessão 2: Comandos, Navegação e Ajuda",
+    "title": "Sessão 2: Comandos, Navegação e Ajuda",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session2.html",
+    
+    "relUrl": "/Modules/Module1/session2.html"
+  },"65": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "🧭 Sessão 3: Output e Personalização",
+    "content": ". 🎯 Objetivo Nesta sessão vamos aprofundar o entendimento sobre como o PowerShell apresenta e manipula o output dos comandos, como personalizar o ambiente de trabalho, e introduzir funções simples para reutilização de lógica. | 1. Objetos , Propriedades e Metodos . | 1.1. O que é um objeto? | 1.2. Como identificar propriedades e métodos? | 1.3. Aceder a propriedades | 1.4. Invocar métodos | 1.5. 🧩 Exercícios práticos | . | 2. Parâmetros em comandos . | 2.1. O que são parâmetros? | 2.2. Como descobrir os parâmetros disponíveis? | 2.3. Parâmetros posicionais vs nomeados | 2.4. Como interpretar a ajuda de um parâmetro | 2.5. 🧩 Exercícios práticos | . | 3. Outputs e Pipeline . | 3.1. Introdução | 3.2. Output para o terminal | 3.3. Formatar o output | 3.4. Redirecionar output para ficheiros | 3.5. O pipeline (|) | 3.6. $_ – o objeto atual no pipeline | 3.7. Boas práticas | 3.8. 🧩 Exercícios práticos | . | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html",
+    
+    "relUrl": "/Modules/Module1/session3.html"
+  },"66": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "1. Objetos , Propriedades e Metodos",
+    "content": "No PowerShell, quase tudo é um objeto. Isso significa que os comandos não devolvem apenas texto, mas sim objetos com propriedades e métodos que podes explorar e manipular. ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#1-objetos--propriedades-e-metodos",
+    
+    "relUrl": "/Modules/Module1/session3.html#1-objetos--propriedades-e-metodos"
+  },"67": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "1.1. O que é um objeto?",
+    "content": "Um objeto é uma estrutura que contém: . | Propriedades – informações sobre o objeto (ex: nome, tamanho, data de criação) | Métodos – ações que o objeto pode executar (ex: copiar, apagar, converter) | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#11-o-que-%C3%A9-um-objeto",
+    
+    "relUrl": "/Modules/Module1/session3.html#11-o-que-é-um-objeto"
+  },"68": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "1.2. Como identificar propriedades e métodos?",
+    "content": "Podes visualizar as propriedades e métodos de um objeto através de comandos que mostrem o seu conteúdo completo. Este comando mostra todos os métodos e propriedades disponíveis no objeto $hoje, que representa a data e hora atual. $hoje = Get-Date $hoje | Get-Member . ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#12-como-identificar-propriedades-e-m%C3%A9todos",
+    
+    "relUrl": "/Modules/Module1/session3.html#12-como-identificar-propriedades-e-métodos"
+  },"69": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "1.3. Aceder a propriedades",
+    "content": "Podes visualizar os valores das propriedades de um objeto com: . $hoje | Format-List * . Podes aceder a uma propriedade com o operador . Exemplo: . $hoje.Year $hoje.Month $hoje.DayOfWeek . $hoje.Year devolve o ano atual (ex: 2025) $hoje.Month devolve o número do mês (ex: 4) $hoje.DayOfWeek devolve o dia da semana por extenso (ex: Friday) . ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#13-aceder-a-propriedades",
+    
+    "relUrl": "/Modules/Module1/session3.html#13-aceder-a-propriedades"
+  },"70": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "1.4. Invocar métodos",
+    "content": "Os métodos são ações que um objeto pode executar. Para invocar um método, usas o operador de ponto seguido de parêntesis (). Podes descobrir quais os métodos disponíveis para um objeto com o comando: $objeto | Get-Member . Exemplo: . $hoje | Get-Member . Isto mostra todos os membros do objeto $data, incluindo os métodos como AddDays, AddHours, ToShortDateString, etc. O método AddDays() pertence ao tipo System.DateTime Aceita um número (double) como argumento, que representa o número de dias a somar ou subtrair. O resultado é um novo objeto datetime com a data ajustada. | O método chama-se AddDays | Recebe como parâmetro de entrada um valor do tipo double (por exemplo: 1, 2.5, -3) | Devolve como resultado um objeto do tipo datetime | Exemplos . $maisMeioDia = $hoje.AddDays(0.5) $amanha = $hoje.AddDays(1) . | . 🔎 Nota Get-Location | Get-Member mostra-te os métodos e propriedades que podes usar sobre os objetos devolvidos pelo comando Get-Location, e não sobre o próprio comando. Se escreveres: . Get-Location.ToString() . O PowerShell interpreta isto como uma tentativa de chamar o método ToString() sobre o comando Get-Location em si, e não sobre o objeto que ele devolve. Ora, Get-Location é um comando, não é um objeto. Estás, na prática, a tentar aplicar .ToString() a um scriptblock implícito, o que resulta num erro ou num comportamento inesperado. A forma correta de o fazer é com parêntesis: . (Get-Location).ToString() . Assim, o PowerShell executa primeiro o comando Get-Location e só depois chama o método ToString() sobre o objeto retornado (que é do tipo PathInfo). Documentação oficial: https://learn.microsoft.com/en-us/powershell/scripting/learn/ps101/03-discovering-objects . ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#14-invocar-m%C3%A9todos",
+    
+    "relUrl": "/Modules/Module1/session3.html#14-invocar-métodos"
+  },"71": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "1.5. 🧩 Exercícios práticos",
+    "content": "🧩 Exercício 1 . | Cria uma variável $frase com o valor “PowerShell é poderoso”. | Mostra o comprimento total da frase usando a propriedade adequada. | . Resposta $frase = \"PowerShell é poderoso\" $frase.Length . 🧩 Exercício 2 . | Cria uma variável $texto com o valor \"PowerShell é fixe\". | Converte para maiúsculas. | Verifica se contém a palavra \"fixe\". | . Resposta $texto = \"PowerShell é fixe\" $texto.ToUpper() $texto.Contains(\"fixe\") . 🧩 Exercício 3 . | Guarda a data atual numa variável chamada $hoje. | Cria uma nova variável $amanha com a data de amanhã. | Mostra o dia da semana correspondente. | . Resposta $hoje = Get-Date $amanha = $hoje.AddDays(1) $amanha.DayOfWeek . 🧩 Exercício 4 . Usa o comando Get-Location e acede à propriedade que te mostra o caminho atual da localização. Resposta (Get-Location).Path Usa o mesmo comando e chama o método que devolve o o caminho atual da localização. Resposta (Get-Location).ToString() Nota Ambos os comandos devolvem exatamente o mesmo texto — o caminho atual. Isto acontece porque o método ToString() do objeto PathInfo foi implementado para devolver o mesmo valor da propriedade Path. Este é um bom exemplo de como métodos podem ser usados para produzir representações legíveis de objetos, mesmo que haja uma propriedade que contenha o mesmo valor. ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#15--exerc%C3%ADcios-pr%C3%A1ticos",
+    
+    "relUrl": "/Modules/Module1/session3.html#15--exercícios-práticos"
+  },"72": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "2. Parâmetros em comandos",
+    "content": "Muitos comandos no PowerShell aceitam parâmetros para alterar o seu comportamento ou filtrar os resultados. ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#2-par%C3%A2metros-em-comandos",
+    
+    "relUrl": "/Modules/Module1/session3.html#2-parâmetros-em-comandos"
+  },"73": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "2.1. O que são parâmetros?",
+    "content": ". | Um parâmetro é uma opção que controlas ao chamar um comando. | Um argumento é o valor que passas a esse parâmetro. | . Exemplo: . Get-Process -Name \"notepad\" . | -Name é o parâmetro | \"notepad\" é o argumento | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#21-o-que-s%C3%A3o-par%C3%A2metros",
+    
+    "relUrl": "/Modules/Module1/session3.html#21-o-que-são-parâmetros"
+  },"74": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "2.2. Como descobrir os parâmetros disponíveis?",
+    "content": "Usa os seguintes comandos: . Mostra todos os parâmetros, exemplos e descrições. Get-Help Get-Process -Full . Mostra apenas os parâmetros Get-Help Get-Process -Parameter * . Mostra a sintaxe resumida. Get-Command Get-Process -Syntax . Abre uma janela gráfica com os parâmetros Show-Command Get-Process . ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#22-como-descobrir-os-par%C3%A2metros-dispon%C3%ADveis",
+    
+    "relUrl": "/Modules/Module1/session3.html#22-como-descobrir-os-parâmetros-disponíveis"
+  },"75": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "2.3. Parâmetros posicionais vs nomeados",
+    "content": ". | Explicito: Escreves explicitamente o nome do parâmetro. Ex: Get-Process -Name notepad . | Posicional: O PowerShell assume o parâmetro com base na posição do argumento. Ex: Get-Process notepad → é equivalente a -Name notepad . | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#23-par%C3%A2metros-posicionais-vs-nomeados",
+    
+    "relUrl": "/Modules/Module1/session3.html#23-parâmetros-posicionais-vs-nomeados"
+  },"76": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "2.4. Como interpretar a ajuda de um parâmetro",
+    "content": "Exemplo retirado de Get-Help Get-Service -Parameter Name: . -Name &lt;System.String[]&gt; Specifies the service names of services to be retrieved. Wildcards are permitted. Required? false Position? 0 Default value None Accept pipeline input? True (ByPropertyName, ByValue) Accept wildcard characters? true . | -Name é o nome do parâmetro | O tipo esperado é uma string ou lista de strings | Não é obrigatório (Required? false) | Pode ser usado sem escrever o nome, se for o primeiro argumento (Position? 0) | Aceita wildcards (*, ?) | Aceita input de pipeline por nome de propriedade ou por valor | . Com base nesta informação podemos usar: . Get-Service -Name ms* Get-Service ms* . 💡 Dica: Usa Tab para completar o nome dos parâmetros . ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#24-como-interpretar-a-ajuda-de-um-par%C3%A2metro",
+    
+    "relUrl": "/Modules/Module1/session3.html#24-como-interpretar-a-ajuda-de-um-parâmetro"
+  },"77": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "2.5. 🧩 Exercícios práticos",
+    "content": "🧩 Exercício - Explorar parâmetros com Get-EventLog . Usa Get-Help Get-EventLog -Full e tenta descobrir: . | Como listar os últimos 5 eventos do log System | Que parâmetro te permite limitar a quantidade de eventos | . Resposta Get-EventLog -LogName System -Newest 5 🧩 Exercício - Explorar parâmetros com Get-ChildItem . Usa Get-Help Get-ChildItem -Parameter * para responder às seguintes perguntas: . | Qual o parâmetro que permite procurar ficheiros de forma recursiva? | Qual o parâmetro que permite usar filtros com wildcards? | Constrói um comando que mostre todos os ficheiros .txt em todos os subdiretórios da tua pasta pessoal. | . 💡 Nota: Podes usar a variável de ambiente $Env:USERPROFILE para aceder à tua pasta pessoal. Resposta Get-ChildItem -Path $Env:USERPROFILE -Filter *.txt -Recurse Versão reduzida Get-ChildItem $Env:USERPROFILE *.txt -Recurse `$Env:USERPROFILE` → corresponde ao 1.º parâmetro posicional, que é -Path `*.txt` → corresponde ao 2.º parâmetro posicional, que é -Filter `-Recurse` → continua a ser necessário indicar o nome, pois não é posicional Este comando é menos legível, pelo que é melhor usar sempre o nome dos parâmetros ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#25--exerc%C3%ADcios-pr%C3%A1ticos",
+    
+    "relUrl": "/Modules/Module1/session3.html#25--exercícios-práticos"
+  },"78": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "3. Outputs e Pipeline",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#3-outputs-e-pipeline",
+    
+    "relUrl": "/Modules/Module1/session3.html#3-outputs-e-pipeline"
+  },"79": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "3.1. Introdução",
+    "content": "No PowerShell, o output refere-se à informação que um comando devolve depois de ser executado. Esse resultado pode ser: . | Visualizado no terminal | Armazenado numa variável | Redirecionado para ficheiros | Passado para outro comando através do pipeline | . O que é o pipeline (|) . O símbolo | (barra vertical) chama-se pipeline. É uma das funcionalidades mais poderosas do PowerShell e permite ligar comandos, passando o output de um comando como input para o próximo. Exemplo: . Get-Process | Where-Object { $_.CPU -gt 100 } . Neste exemplo: . | Get-Process devolve uma lista de processos | O output é enviado através do pipeline (|) | Where-Object filtra os processos com mais de 100 segundos de CPU | . O que pode ser feito com o output? . Podes fazer várias coisas com o resultado de um comando: . | Visualizar diretamente no terminal (com formatação opcional) | Transformar o conteúdo (filtrar, ordenar, formatar) | Guardar o resultado em ficheiros (texto, CSV, etc.) | Encadear o resultado em comandos seguintes com | . Esta flexibilidade torna o PowerShell uma ferramenta poderosa para automatização e análise de dados. ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#31-introdu%C3%A7%C3%A3o",
+    
+    "relUrl": "/Modules/Module1/session3.html#31-introdução"
+  },"80": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "3.2. Output para o terminal",
+    "content": "Quando executas um comando no PowerShell, o resultado (output) é mostrado automaticamente no terminal, sem necessidade de comandos adicionais. Exibição por defeito . Se escreveres apenas uma expressão ou comando, o PowerShell mostra o resultado automaticamente. Exemplos: . Get-Date \"Olá, mundo\" 2 + 3 $variavel = \"valor\" # neste caso não há output, apenas atribuição . O PowerShell mostra o resultado porque o motor de execução avalia a expressão e, se for apropriado, envia-a para o sistema de formatação (que define como o output será apresentado). O que é o sistema de formatação no PowerShell? . Sempre que executas um comando, o PowerShell não imprime diretamente o objeto devolvido. Em vez disso, envia esse objeto para o sistema de formatação, que define como o conteúdo será apresentado no terminal. Esse sistema baseia-se em regras internas, definidas em ficheiros .format.ps1xml, que indicam: . | Que propriedades devem ser mostradas | Em que ordem | Com que títulos | E em que tipo de estrutura (tabela, lista, etc.) | . Exemplo 1 – Get-Process . Get-Process . Este comando devolve objetos do tipo System.Diagnostics.Process. O PowerShell aplica regras de formatação específicas para esse tipo, e mostra automaticamente uma tabela com colunas como: . | Handles | NPM | CPU | Id | ProcessName | . Exemplo 2 – Get-Date . Get-Date . Este comando devolve um objeto System.DateTime. Esse tipo de objeto tem o método .ToString() bem definido, por isso o PowerShell mostra diretamente: . sábado, 20 de abril de 2025 09:32:01 . Se quiseres ver todas as propriedades do objeto: . Get-Date | Format-List * . E se o tipo de objeto não tiver formatação definida? . O PowerShell tenta chamar o método .ToString() do objeto. Por exemplo o comando New-Object -TypeName System.Objectvai criar um objeto genérico sem propriedades nem métodos personalizados (além dos herdados) que terá como resultado: . System.Object . Isto é semelhante ao que acontece em linguagens como C# ou Java quando tentas imprimir um objeto sem sobrepor o método ToString(). Write-Output (opcional mas útil) . O comando Write-Output envia explicitamente dados para o output. Na maioria dos casos, não é necessário usá-lo — mas pode ser útil quando queres tornar o código mais claro ou construir scripts mais estruturados. Exemplos: . Write-Output \"Isto vai aparecer no terminal\" Write-Output (Get-Date) . Nota: Write-Output envia o conteúdo para o pipeline, o que significa que podes continuar a trabalhar com o valor. Por oposição, Write-Host escreve diretamente no ecrã e não envia nada para o pipeline. Exemplo de diferença: . Write-Output \"Olá\" | ForEach-Object { $_.ToUpper() } # funciona Write-Host \"Olá\" | ForEach-Object { $_.ToUpper() } # não funciona . 💡 Usa Write-Output quando quiseres manter a informação no fluxo de dados. ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#32-output-para-o-terminal",
+    
+    "relUrl": "/Modules/Module1/session3.html#32-output-para-o-terminal"
+  },"81": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "3.3. Formatar o output",
+    "content": "Por defeito, o PowerShell aplica uma formatação automática com base no tipo de objeto devolvido. No entanto, podes personalizar a forma como a informação é apresentada usando os comandos Format-Table, Format-List e Select-Object. Format-Table . Apresenta os dados em forma de tabela, com colunas. Exemplo: . Get-Process | Select-Object -First 10 | Format-Table Name, Id, CPU . Podes também usar -AutoSize para ajustar automaticamente a largura das colunas: . Get-Process | Select-Object -First 10 | Format-Table Name, Id, CPU -AutoSize . Format-List . Mostra as propriedades em lista vertical, útil quando há muitos detalhes ou quando o conteúdo não cabe numa linha. Exemplo: . Get-Process | Select-Object -First 10 | Format-List Name, Id, CPU . 💡 Usa Format-List quando quiseres ver tudo com mais detalhe, e Format-Table quando quiseres uma visão geral e comparativa. 🔎 Select-Object . Permite selecionar apenas algumas propriedades de um objeto, sem alterar o tipo de output. Isto é útil para controlar os dados que passam no pipeline, sem aplicar formatação visual. Exemplo: . Get-Process | Select-Object Name, Id . 💡 Select-Object é usado para preparar dados para exportação, filtragem ou uso posterior, não apenas para apresentação. 🆚 Comparação prática com Get-Member . Get-Process | Select-Object Name, Id | Get-Member . → Mostra os membros (propriedades e métodos) dos objetos que passaram pelo pipeline. O tipo de output é: . TypeName: Selected.System.Diagnostics.Process . Ou seja, o resultado continua a ser um objeto com estrutura, com propriedades acessíveis como .Name e .Id. Get-Process | Format-Table Name, Id | Get-Member . → Aqui Get-Member mostra os membros de um objeto de formatação, e não os do processo original. O tipo de output é: . TypeName: Microsoft.PowerShell.Commands.Internal.Format.FormatStartData . Isto acontece porque Format-Table transforma os objetos em texto formatado, e os dados originais já não estão acessíveis como propriedades estruturadas. Nota: Select-Object mantém os dados “vivos” como objetos. Format-Table “mata” os objetos e transforma-os em texto — útil para ver, mas inútil para processar depois. ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#33-formatar-o-output",
+    
+    "relUrl": "/Modules/Module1/session3.html#33-formatar-o-output"
+  },"82": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "3.4. Redirecionar output para ficheiros",
+    "content": "Podes guardar o resultado de comandos PowerShell em ficheiros para consulta posterior, documentação, exportação de dados, ou integração com outras ferramentas. Out-File . O comando Out-File envia texto formatado para um ficheiro. Exemplo: . Get-Process | Out-File -FilePath \"processos.txt\" . Isto cria (ou substitui) o ficheiro processos.txt com a saída formatada do comando Get-Process. 💡 Podes usar o parâmetro -Append se quiseres adicionar ao conteúdo existente: . Get-Date | Out-File -FilePath \"log.txt\" -Append . Controlar o encoding . O Out-File usa por defeito o encoding utf-16. Se quiseres guardar em UTF-8 (mais comum e compatível), usa: . Get-Process | Out-File -FilePath \"processos.txt\" -Encoding utf8 . Export-Csv . O comando Export-Csv é ideal para exportar objetos estruturados como listas de processos, serviços, utilizadores, etc. Exemplo: . Get-Process | Select-Object Name, Id, CPU | Export-Csv -Path \"processos.csv\" -NoTypeInformation . | Cada linha do ficheiro CSV representa um objeto | Cada coluna corresponde a uma propriedade | O parâmetro -NoTypeInformation evita que a primeira linha contenha metadados do tipo. | . 💡 Este comando é muito útil quando vais trabalhar os dados em Excel ou Power BI. Testar Correr o comando com e sem -NoTypeInformation e verificar a primeira linha do ficheiro. Set-Content e Add-Content . Estes comandos permitem escrever diretamente em ficheiros linha a linha (sem passar por formatação especial). | Set-Content cria ou substitui um ficheiro | Add-Content adiciona ao conteúdo existente | . Exemplos: . Set-Content -Path \"ficheiro.txt\" -Value \"Primeira linha\" Add-Content -Path \"ficheiro.txt\" -Value \"Segunda linha\" . 💡 Estes comandos são úteis quando precisas de escrever dados simples como strings, logs ou resultados de scripts, não dependem do sistema de formatação do PowerShell — escrevem exatamente o que pedires, linha por linha. ⚠️ Nota importante: Se precisares de guardar dados estruturados (com propriedades), usa Export-Csv. Se o que queres é guardar texto formatado tal como aparece no terminal, usa Out-File. Usa Set-Content ou Add-Content quando quiseres escrever diretamente texto simples ou valores individuais, sem formatação automática. ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#34-redirecionar-output-para-ficheiros",
+    
+    "relUrl": "/Modules/Module1/session3.html#34-redirecionar-output-para-ficheiros"
+  },"83": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "3.5. O pipeline (|)",
+    "content": "O símbolo |, chamado pipeline, é uma das funcionalidades mais poderosas do PowerShell. Permite encadear comandos, onde o output de um comando é passado como input para o seguinte. Como funciona? . Cada comando no pipeline recebe os objetos produzidos pelo comando anterior. Isso permite aplicar filtros, transformações ou ações sucessivas de forma legível e modular. Exemplo prático . Get-Process | Where-Object { $_.CPU -gt 100 } | Sort-Object CPU . Explicação passo a passo: . | Get-Process devolve todos os processos em execução. | Where-Object filtra os que têm mais de 100 segundos de uso de CPU. | Sort-Object ordena os resultados com base na propriedade CPU. | . ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#35-o-pipeline-",
+    
+    "relUrl": "/Modules/Module1/session3.html#35-o-pipeline-"
+  },"84": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "3.6. $_ – o objeto atual no pipeline",
+    "content": "A variável especial $_, que representa o objeto atual no pipeline, será explicada mais à frente quando abordarmos blocos de script. Para já vamos apenas ver um breve exemplo . Get-Process | ForEach-Object { $_.Name } . Aqui, $_ é o objeto atual, e acedemos à sua propriedade Name. 💡 Dica: O pipeline torna os comandos mais legíveis, reutilizáveis e poderosos. Em vez de criar variáveis temporárias ou escrever muitos passos, podes fazer tudo numa só linha de forma clara. — . ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#36-_--o-objeto-atual-no-pipeline",
+    
+    "relUrl": "/Modules/Module1/session3.html#36-_--o-objeto-atual-no-pipeline"
+  },"85": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "3.7. Boas práticas",
+    "content": "Ao usares comandos com pipeline e redirecionamento de output, há algumas boas práticas que ajudam a evitar erros e a manter os scripts mais limpos e eficientes. Filtra o mais cedo possível . Aplica filtros (Where-Object, Select-Object, etc.) no início do pipeline para reduzir a quantidade de dados processados. Melhor: . Get-Process | Where-Object { $_.CPU -gt 100 } | Sort-Object CPU . Pior (menos eficiente): . Get-Process | Sort-Object CPU | Where-Object { $_.CPU -gt 100 } . Usa Select-Object para preparar dados para exportação . Antes de exportar dados (por exemplo, para CSV), seleciona apenas as propriedades relevantes com Select-Object. Get-Process | Select-Object Name, Id, CPU | Export-Csv -Path \"proc.csv\" -NoTypeInformation . Evita usar Format-* antes de exportar ou guardar . Comandos como Format-Table ou Format-List devem ser usados só para visualização, e no final do pipeline. Se os usares antes de comandos como Export-Csv ou Out-File, perdes a estrutura dos dados. Errado: . Get-Process | Format-Table Name, Id | Export-Csv \"proc.csv\" ❌ . Correto: . Get-Process | Select-Object Name, Id | Export-Csv \"proc.csv\" ✅ . Verifica o que vai sair antes de redirecionar . Testa sempre o output no terminal antes de o guardar em ficheiros. Assim evitas ficheiros com dados errados ou formatados de forma inesperada. Usa Export-Csv para dados estruturados . Se estás a exportar dados com várias propriedades (como tabelas), usa Export-Csv. Evita usar Out-File nesses casos, porque vais guardar apenas o texto renderizado, e não os dados reais. Usa Out-File, Set-Content ou Add-Content com propósitos específicos . | Out-File: quando queres guardar o texto formatado como aparece no terminal | Set-Content: para criar ficheiros de texto simples com conteúdo direto | Add-Content: para adicionar linhas a ficheiros existentes (ex: logs) | . 💡 Dica: Ao seguir estas boas práticas, consegues criar scripts mais fiáveis, reutilizáveis e mais fáceis de manter. ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#37-boas-pr%C3%A1ticas",
+    
+    "relUrl": "/Modules/Module1/session3.html#37-boas-práticas"
+  },"86": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "3.8. 🧩 Exercícios práticos",
+    "content": "🧩 Exercício 1 – Format-Table . | Mostra os primeiros 5 processos no sistema. | Exibe apenas o nome, o ID e o tempo de CPU de cada processo. | Usa Format-Table com -AutoSize. | . Resposta Get-Process | Select-Object -First 5 | Format-Table Name, Id, CPU -AutoSize . 🧩 Exercício 2 – Format-List . | Mostra os detalhes do primeiro serviço do sistema. | Exibe todas as propriedades usando Format-List. | . Resposta Get-Service | Select-Object -First 1 | Format-List * . 🧩 Exercício 3 – Guardar o output num ficheiro . | Guarda a lista de serviços num ficheiro chamado servicos.txt. | Usa Out-File com encoding UTF-8. | . Resposta Get-Service | Out-File -FilePath \"servicos.txt\" -Encoding utf8 . 🧩 Exercício 4 – Exportar para CSV . | Exporta o nome e o estado de todos os serviços para um ficheiro chamado servicos.csv. | Garante que a primeira linha não contém o tipo de objeto. | . Resposta Get-Service | Select-Object Name, Status | Export-Csv -Path \"servicos.csv\" -NoTypeInformation . 🧩 Exercício 5 – Adicionar conteúdo a um ficheiro . | Cria um ficheiro log.txt com uma linha inicial. | Acrescenta a data e hora atuais à linha seguinte. | . Resposta Set-Content -Path \"log.txt\" -Value \"Início do log\" Add-Content -Path \"log.txt\" -Value (Get-Date) . 🧩 Exercício 6 – Usar pipeline com filtros . | Lista todos os processos que estejam a consumir mais de 50 segundos de CPU. | Ordena os resultados por tempo de CPU. | . Resposta Get-Process | Where-Object { $_.CPU -gt 50 } | Sort-Object CPU 🧩 Exercício 7 – Análise de processos . | Usa Get-Process para explorar todas as propriedades disponíveis (usa Format-List * ou Get-Member). | Escolhe três propriedades que aches úteis para analisar o estado dos processos (ex: Name, CPU, WorkingSet). | Filtra os 10 processos que estão a usar mais memória (WorkingSet). | Exporta essa informação para um ficheiro processos_memoria.csv, sem incluir o tipo de objeto na primeira linha. | . 💡 Dica: WorkingSet representa a quantidade de memória física usada por um processo (em bytes). Resposta Get-Process | Sort-Object WorkingSet -Descending | Select-Object -First 10 Name, CPU, WorkingSet | Export-Csv -Path \"processos_memoria.csv\" -NoTypeInformation ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html#38--exerc%C3%ADcios-pr%C3%A1ticos",
+    
+    "relUrl": "/Modules/Module1/session3.html#38--exercícios-práticos"
+  },"87": {
+    "doc": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "title": "Session 3: Objetos, parâmetros, pipeline, output, exportações",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/session3.html",
+    
+    "relUrl": "/Modules/Module1/session3.html"
+  }
+}
