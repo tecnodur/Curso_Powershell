@@ -1,80 +1,80 @@
 {"0": {
-    "doc": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
-    "title": "🎯 Objetivo do Módulo",
-    "content": "Compreender os fundamentos de PowerShell e Shell Scripting, configurar o ambiente de trabalho e dominar os comandos básicos antes de avançar para lógica e scripting. ",
-    "url": "/Curso_Powershell/Modules/Module1/#-objetivo-do-m%C3%B3dulo",
-    
-    "relUrl": "/Modules/Module1/#-objetivo-do-módulo"
-  },"1": {
-    "doc": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
-    "title": "📌 Estrutura do Módulo",
-    "content": "Sessões: . | Sessão 1: Conceitos Básicos e Configuração . | Introdução, instalação, configuração do ambiente e primeiros passos na consola. | . | Sessão 2: Comandos, Navegação e Ajuda . | Exploração de comandos, navegação no sistema de ficheiros, ajuda integrada e tipos de comandos. | . | Sessão 3: Objetos, parâmetros, pipeline, output, exportações Interpretação do output, manipulação de objetos, propriedades e métodos, formatação e redirecionamento de resultados. | . 🚀 Pronto para começar? . Inicie com a Sessão 1: Conceitos Básicos e Configuração . ",
-    "url": "/Curso_Powershell/Modules/Module1/#-estrutura-do-m%C3%B3dulo",
-    
-    "relUrl": "/Modules/Module1/#-estrutura-do-módulo"
-  },"2": {
-    "doc": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
-    "title": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
-    "content": " ",
-    "url": "/Curso_Powershell/Modules/Module1/",
-    
-    "relUrl": "/Modules/Module1/"
-  },"3": {
     "doc": "Module 4: Automação de Tarefas no Windows e Linux",
     "title": "Module 4: Automação de Tarefas no Windows e Linux",
     "content": " ",
     "url": "/Curso_Powershell/Modules/Module4/",
     
     "relUrl": "/Modules/Module4/"
-  },"4": {
+  },"1": {
     "doc": "Module 3: Gestão de Ficheiros e Processos",
     "title": "Gestão de Ficheiros e Processos",
     "content": " ",
     "url": "/Curso_Powershell/Modules/Module3/#gest%C3%A3o-de-ficheiros-e-processos",
     
     "relUrl": "/Modules/Module3/#gestão-de-ficheiros-e-processos"
-  },"5": {
+  },"2": {
     "doc": "Module 3: Gestão de Ficheiros e Processos",
     "title": "Module 3: Gestão de Ficheiros e Processos",
     "content": " ",
     "url": "/Curso_Powershell/Modules/Module3/",
     
     "relUrl": "/Modules/Module3/"
-  },"6": {
-    "doc": "Módulo 2: Fundamentos de Scripting e Lógica em PowerShell",
-    "title": "🎯 Objetivo do Módulo",
-    "content": "Neste módulo, vais dominar os fundamentos essenciais para criar scripts em PowerShell. Aprenderás a trabalhar com variáveis, tipos de dados, controlo de erros, estruturas condicionais e ciclos de repetição. Também vais adquirir competências práticas para construir scripts mais organizados, reutilizáveis e adaptáveis a diferentes cenários. Ao concluir este módulo, serás capaz de: . | Escrever scripts em ficheiros .ps1 e configurar permissões de execução . | Criar e utilizar variáveis e tipos de dados corretamente . | Implementar estruturas condicionais e ciclos (for, foreach, while, do-until) . | Tratar erros de forma robusta com try/catch/finally . | Manipular texto, números, arrays e datas . | Organizar a lógica de scripts para reutilização e manutenção eficiente . | . ",
-    "url": "/Curso_Powershell/Modules/Module2/#-objetivo-do-m%C3%B3dulo",
-    
-    "relUrl": "/Modules/Module2/#-objetivo-do-módulo"
-  },"7": {
-    "doc": "Módulo 2: Fundamentos de Scripting e Lógica em PowerShell",
-    "title": "📌 Estrutura do Módulo",
-    "content": ". | Sessão 1: Criar e Executar Scripts Como escrever scripts, permissões de execução, estrutura de scripts, usar variáveis e lógica dentro de ficheiros .ps1. | Sessão 2: Variáveis e Tipos de Dados Variáveis primitivas (string, int, bool), variáveis compostas (arrays, hashtables), e operadores básicos. | Session 3: Tratamento de Erros com try, catch e finally’ Aprender a capturar e tratar erros em PowerShell para tornar os scripts mais robustos, previsíveis e fáceis de manter. | Sessão 4: Manipulação de Texto e Dados Simples Aprender a trabalhar com texto (strings), números, arrays simples e datas de forma prática, incluindo conversões básicas de tipos de dados em PowerShell. | Sessão 5: Estruturas Condicionais Uso de if, elseif, else, operadores de comparação e booleanos. | Sessão 6: Loops e Iterações for, foreach, while, do-until, uso em cenários reais como validações ou repetição de comandos. | Sessão 7: Introdução a Funções Simples Definir funções (function Nome {}), passar parâmetros, reutilizar código e boas práticas básicas. | . 🚀 Pronto para começar? . Inicie com a Sessão 1: Criar e Executar Scripts . ",
-    "url": "/Curso_Powershell/Modules/Module2/#-estrutura-do-m%C3%B3dulo",
-    
-    "relUrl": "/Modules/Module2/#-estrutura-do-módulo"
-  },"8": {
-    "doc": "Módulo 2: Fundamentos de Scripting e Lógica em PowerShell",
-    "title": "Módulo 2: Fundamentos de Scripting e Lógica em PowerShell",
-    "content": " ",
-    "url": "/Curso_Powershell/Modules/Module2/",
-    
-    "relUrl": "/Modules/Module2/"
-  },"9": {
+  },"3": {
     "doc": "Curso de PowerShell & Shell Scripting",
     "title": "Bem-vindo ao Curso!",
     "content": "Este curso irá guiá-lo através dos fundamentos de PowerShell e Shell Scripting, introduzindo gradualmente conceitos mais avançados por meio de exercícios práticos e exemplos do mundo real. 🌟 Estrutura do Curso . O curso está dividido em módulos, cada um contendo várias sessões. O conteúdo será progressivamente disponibilizado de acordo com o calendário das aulas. 📅 Horário . | As aulas decorrem às segundas e quartas-feiras, das 19h às 21h. | O curso completo terá uma duração total de 30 horas. | . 📚 Visão Geral dos Módulos e Sessões . Módulo 1: Introdução ao PowerShell e Shell Scripting . Fundamentos essenciais para começares a trabalhar com PowerShell de forma produtiva. Aprende a explorar o ambiente, comandos e o comportamento dos objetos. | Sessão 1: Conceitos Básicos e Configuração Instalação, configuração do ambiente, primeiros comandos na consola. | Sessão 2: Comandos, Navegação e Ajuda Navegar no sistema de ficheiros, explorar comandos e utilizar a ajuda integrada. | Sessão 3: Objetos, parâmetros, pipeline, output, exportações Compreender o sistema de objetos do PowerShell, formatação de output, exportações e boas práticas no uso de comandos . | . Módulo 2: Fundamentos de Scripting e Lógica em PowerShell . Aprende a construir a tua lógica com variáveis, condições, ciclos e scripts reutilizáveis. | Sessão 1: Criar e Executar Scripts Como escrever scripts, permissões de execução, estrutura de scripts, usar variáveis e lógica dentro de ficheiros .ps1. | Sessão 2: Variáveis e Tipos de Dados Variáveis primitivas (string, int, bool), variáveis compostas (arrays, hashtables), e operadores básicos. | Session 3: Tratamento de Erros com try, catch e finally’ Aprender a capturar e tratar erros em PowerShell para tornar os scripts mais robustos, previsíveis e fáceis de manter. | Sessão 4: Manipulação de Texto e Dados Simples Aprender a trabalhar com texto (strings), números, arrays simples e datas de forma prática, incluindo conversões básicas de tipos de dados em PowerShell. | Sessão 5: Estruturas Condicionais Uso de if, elseif, else, operadores de comparação e booleanos. | Sessão 6: Loops e Iterações for, foreach, while, do-until, uso em cenários reais como validações ou repetição de comandos. | . Módulo 3: Scripts, Ficheiros e Processos . Trabalha com ficheiros, diretórios e processos do sistema. Automatiza tarefas do dia-a-dia com scripts mais robustos. | Sessão 1: Scripts Básicos e Segurança Execução de scripts, permissões, paths relativos vs absolutos, input do utilizador. | Sessão 2: Scripts Temáticos com Ficheiros Automatizar tarefas do dia-a-dia com ficheiros: contar linhas, procurar conteúdo, renomear, organizar pastas. | Sessão 3: Pesquisa, Filtragem e Exportação Criar relatórios com Where-Object, Select-String, Export-Csv, pesquisa recursiva e tratamento de grandes volumes. | Sessão 4: Processos e Serviços Monitorizar uso de CPU, listar processos ativos, criar logs, gerir serviços com Start-Service e Stop-Service. | Sessão 5: Desafio de Automatização Criar um script completo que automatize a recolha e exportação de informação sobre o sistema. | . Módulo 4: Automação de Tarefas no Windows e Linux . Usa o PowerShell para criar automações reais, com tarefas agendadas, notificações e integração com ficheiros de log. | Sessão 1: Tarefas Agendadas e Cron Jobs Criar e gerir tarefas agendadas no Windows ou cron jobs no Linux. | Sessão 2: Trabalhar com Serviços e Logs Exportar logs de eventos, monitorizar serviços, criar alertas simples. | Sessão 3: Notificações e Relatórios Automatizados Gerar relatórios CSV ou HTML, enviar por email, alertas com popups. | Sessão 4: Projeto Prático Final Desafio para consolidar conhecimentos: criar um script completo com lógica, ciclos, exportação e agendamento. | . 🔑 Nota . O conteúdo será gradualmente disponibilizado. Por favor, siga de acordo com o calendário das aulas. 🚀 Pronto para começar? . Inicie com a Sessão 1: Conceitos Básicos e Configuração . ",
     "url": "/Curso_Powershell/#bem-vindo-ao-curso",
     
     "relUrl": "/#bem-vindo-ao-curso"
-  },"10": {
+  },"4": {
     "doc": "Curso de PowerShell & Shell Scripting",
     "title": "Curso de PowerShell & Shell Scripting",
     "content": " ",
     "url": "/Curso_Powershell/",
     
     "relUrl": "/"
+  },"5": {
+    "doc": "Módulo 2: Fundamentos de Scripting e Lógica em PowerShell",
+    "title": "🎯 Objetivo do Módulo",
+    "content": "Neste módulo, vais dominar os fundamentos essenciais para criar scripts em PowerShell. Aprenderás a trabalhar com variáveis, tipos de dados, controlo de erros, estruturas condicionais e ciclos de repetição. Também vais adquirir competências práticas para construir scripts mais organizados, reutilizáveis e adaptáveis a diferentes cenários. Ao concluir este módulo, serás capaz de: . | Escrever scripts em ficheiros .ps1 e configurar permissões de execução . | Criar e utilizar variáveis e tipos de dados corretamente . | Implementar estruturas condicionais e ciclos (for, foreach, while, do-until) . | Tratar erros de forma robusta com try/catch/finally . | Manipular texto, números, arrays e datas . | Organizar a lógica de scripts para reutilização e manutenção eficiente . | . ",
+    "url": "/Curso_Powershell/Modules/Module2/#-objetivo-do-m%C3%B3dulo",
+    
+    "relUrl": "/Modules/Module2/#-objetivo-do-módulo"
+  },"6": {
+    "doc": "Módulo 2: Fundamentos de Scripting e Lógica em PowerShell",
+    "title": "📌 Estrutura do Módulo",
+    "content": ". | Sessão 1: Criar e Executar Scripts Como escrever scripts, permissões de execução, estrutura de scripts, usar variáveis e lógica dentro de ficheiros .ps1. | Sessão 2: Variáveis e Tipos de Dados Variáveis primitivas (string, int, bool), variáveis compostas (arrays, hashtables), e operadores básicos. | Session 3: Tratamento de Erros com try, catch e finally’ Aprender a capturar e tratar erros em PowerShell para tornar os scripts mais robustos, previsíveis e fáceis de manter. | Sessão 4: Manipulação de Texto e Dados Simples Aprender a trabalhar com texto (strings), números, arrays simples e datas de forma prática, incluindo conversões básicas de tipos de dados em PowerShell. | Sessão 5: Estruturas Condicionais Uso de if, elseif, else, operadores de comparação e booleanos. | Sessão 6: Loops e Iterações for, foreach, while, do-until, uso em cenários reais como validações ou repetição de comandos. | Sessão 7: Introdução a Funções Simples Definir funções (function Nome {}), passar parâmetros, reutilizar código e boas práticas básicas. | . 🚀 Pronto para começar? . Inicie com a Sessão 1: Criar e Executar Scripts . ",
+    "url": "/Curso_Powershell/Modules/Module2/#-estrutura-do-m%C3%B3dulo",
+    
+    "relUrl": "/Modules/Module2/#-estrutura-do-módulo"
+  },"7": {
+    "doc": "Módulo 2: Fundamentos de Scripting e Lógica em PowerShell",
+    "title": "Módulo 2: Fundamentos de Scripting e Lógica em PowerShell",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module2/",
+    
+    "relUrl": "/Modules/Module2/"
+  },"8": {
+    "doc": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
+    "title": "🎯 Objetivo do Módulo",
+    "content": "Compreender os fundamentos de PowerShell e Shell Scripting, configurar o ambiente de trabalho e dominar os comandos básicos antes de avançar para lógica e scripting. ",
+    "url": "/Curso_Powershell/Modules/Module1/#-objetivo-do-m%C3%B3dulo",
+    
+    "relUrl": "/Modules/Module1/#-objetivo-do-módulo"
+  },"9": {
+    "doc": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
+    "title": "📌 Estrutura do Módulo",
+    "content": "Sessões: . | Sessão 1: Conceitos Básicos e Configuração . | Introdução, instalação, configuração do ambiente e primeiros passos na consola. | . | Sessão 2: Comandos, Navegação e Ajuda . | Exploração de comandos, navegação no sistema de ficheiros, ajuda integrada e tipos de comandos. | . | Sessão 3: Objetos, parâmetros, pipeline, output, exportações Interpretação do output, manipulação de objetos, propriedades e métodos, formatação e redirecionamento de resultados. | . 🚀 Pronto para começar? . Inicie com a Sessão 1: Conceitos Básicos e Configuração . ",
+    "url": "/Curso_Powershell/Modules/Module1/#-estrutura-do-m%C3%B3dulo",
+    
+    "relUrl": "/Modules/Module1/#-estrutura-do-módulo"
+  },"10": {
+    "doc": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
+    "title": "Módulo 1: Introdução ao PowerShell e Shell Scripting",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module1/",
+    
+    "relUrl": "/Modules/Module1/"
   },"11": {
     "doc": "Referência Rápida",
     "title": "Comandos Essenciais em PowerShell",
@@ -1357,69 +1357,146 @@
     
     "relUrl": "/Modules/Module2/session5.html"
   },"194": {
+    "doc": "Session 6: Loops e Iterações",
+    "title": "🧭 Sessão 6: Loops e Iterações",
+    "content": ". 🎯 Objetivo Aprender a repetir blocos de código com diferentes tipos de loops em PowerShell: for, foreach, while e do-until, e perceber como aplicá-los em cenários reais. | 1. Introdução aos Loops | 2. O loop for | 3. O loop foreach | 4. O loop while | 5. O loop do-until | 6. Comandos especiais em loops: break e continue | 7. 🧩 Exercícios | 8. Filtrar listas com Where-Object | 9. Resumo e Boas Práticas | . ",
+    "url": "/Curso_Powershell/Modules/Module2/session6.html",
+    
+    "relUrl": "/Modules/Module2/session6.html"
+  },"195": {
+    "doc": "Session 6: Loops e Iterações",
+    "title": "1. Introdução aos Loops",
+    "content": "Em programação, muitas vezes precisamos de repetir ações: processar vários itens, tentar até uma condição ser verdadeira, validar inputs, etc. Em vez de copiar e colar código várias vezes, usamos loops. “Enquanto (ou até que) uma condição for verdadeira, repete este bloco de código.” . ",
+    "url": "/Curso_Powershell/Modules/Module2/session6.html#1-introdu%C3%A7%C3%A3o-aos-loops",
+    
+    "relUrl": "/Modules/Module2/session6.html#1-introdução-aos-loops"
+  },"196": {
+    "doc": "Session 6: Loops e Iterações",
+    "title": "2. O loop for",
+    "content": "O for é usado quando sabemos de antemão quantas vezes queremos repetir. Sintaxe: . for (&lt;inicialização&gt;; &lt;condição&gt;; &lt;incremento&gt;) { # Código a repetir } . | Inicialização: define a variável de controlo (ex: $i = 0). | Condição: quando for falsa, o loop termina. | Incremento: atualiza a variável em cada repetição. | . Exemplo: contar de 1 a 5 . for ($i = 1; $i -le 5; $i++) { Write-Output \"Valor atual: $i\" } . ",
+    "url": "/Curso_Powershell/Modules/Module2/session6.html#2-o-loop-for",
+    
+    "relUrl": "/Modules/Module2/session6.html#2-o-loop-for"
+  },"197": {
+    "doc": "Session 6: Loops e Iterações",
+    "title": "3. O loop foreach",
+    "content": "O foreach é usado para percorrer todos os itens de uma coleção (array, lista, etc.). Sintaxe: . foreach ($item in $colecao) { # Código a executar para cada item } . Exemplo: listar nomes . $nomes = @(\"Ana\", \"Bruno\", \"Carlos\") foreach ($nome in $nomes) { Write-Output \"Nome: $nome\" } . ",
+    "url": "/Curso_Powershell/Modules/Module2/session6.html#3-o-loop-foreach",
+    
+    "relUrl": "/Modules/Module2/session6.html#3-o-loop-foreach"
+  },"198": {
+    "doc": "Session 6: Loops e Iterações",
+    "title": "4. O loop while",
+    "content": "O while executa enquanto uma condição for verdadeira. Sintaxe: . while (&lt;condição&gt;) { # Código a repetir } . | Se a condição for falsa desde o início, o while não executa nenhuma vez. | . Exemplo: contar até 3 . $i = 1 while ($i -le 3) { Write-Output \"Contagem: $i\" $i++ } . ",
+    "url": "/Curso_Powershell/Modules/Module2/session6.html#4-o-loop-while",
+    
+    "relUrl": "/Modules/Module2/session6.html#4-o-loop-while"
+  },"199": {
+    "doc": "Session 6: Loops e Iterações",
+    "title": "5. O loop do-until",
+    "content": "O do-until executa sempre pelo menos uma vez e repete até a condição ser verdadeira. Sintaxe: . do { # Código a repetir } until (&lt;condição&gt;) . | Inverso do while: o loop corre até a condição ser verdadeira. | . Exemplo: pedir número até ser maior que 10 . do { $numero = Read-Host \"Introduz um número maior que 10\" } until ($numero -gt 10) Write-Output \"Obrigado! Introduziste: $numero\" . ",
+    "url": "/Curso_Powershell/Modules/Module2/session6.html#5-o-loop-do-until",
+    
+    "relUrl": "/Modules/Module2/session6.html#5-o-loop-do-until"
+  },"200": {
+    "doc": "Session 6: Loops e Iterações",
+    "title": "6. Comandos especiais em loops: break e continue",
+    "content": "Dentro de loops, podemos usar dois comandos especiais para controlar o fluxo de execução: . break . | Interrompe o loop imediatamente. | O código salta para depois do loop. | . Exemplo: parar ao encontrar um valor . $nomes = @(\"Ana\", \"Bruno\", \"Carlos\") foreach ($nome in $nomes) { if ($nome -eq \"Bruno\") { break } Write-Output \"Nome: $nome\" } . Neste exemplo: . | O loop para imediatamente quando encontra “Bruno”. | “Carlos” nunca é mostrado. | . continue . | Salta para a próxima iteração do loop, sem terminar o loop. | O código depois do continue dentro do loop não é executado. | . Exemplo: ignorar um valor . $nomes = @(\"Ana\", \"Bruno\", \"Carlos\") foreach ($nome in $nomes) { if ($nome -eq \"Bruno\") { continue } Write-Output \"Nome: $nome\" } . Neste exemplo: . | “Bruno” é ignorado. | “Ana” e “Carlos” são mostrados. | . 🧠 Dicas práticas . | Comando | Uso principal | . | break | Parar o loop totalmente | . | continue | Saltar apenas a iteração atual | . ",
+    "url": "/Curso_Powershell/Modules/Module2/session6.html#6-comandos-especiais-em-loops-break-e-continue",
+    
+    "relUrl": "/Modules/Module2/session6.html#6-comandos-especiais-em-loops-break-e-continue"
+  },"201": {
+    "doc": "Session 6: Loops e Iterações",
+    "title": "7. 🧩 Exercícios",
+    "content": "🧩 Exercício – Script contagem.ps1 com for . Cria um script contagem.ps1 que: . | Conta de 10 até 1 (a descer) usando for. | Mostra cada número com Write-Output. | . 🧩 Exercício – Script listar_processos.ps1 com foreach . Cria um script listar_processos.ps1 que: . | Usa Get-Process para obter a lista de processos. | Mostra o nome de cada processo usando foreach. | . 🧩 Exercício – Script servicos_parados.ps1 com foreach . Cria um script servicos_parados.ps1 que: . | Usa Get-Service. | Mostra apenas os serviços que estão parados (Status -eq \"Stopped\"). | . 🧩 Exercício – Script esperar_minuto.ps1 com while . Cria um script esperar_minuto.ps1 que: . | Usa while para esperar até o minuto atual ser múltiplo de 5. | Mostra o minuto quando for encontrado. | . 🧩 Exercício – Script encontrar_notepad.ps1 com do-until . Cria um script encontrar_notepad.ps1 que: De 5 em 5 segundos, verifica se o processo “notepad” está aberto. Enquanto o Notepad não estiver aberto, o script deve: . | Escrever no terminal que o Notepad ainda não foi encontrado. | . Assim que o Notepad estiver aberto, o script deve: . | Escrever no terminal que o Notepad foi encontrado. | Terminar a execução. | . 🧩 Exercício – Script ignorar_pares.ps1 com continue . Cria um script ignorar_pares.ps1 que: . | Cria um array com os números de 1 a 10. | Usa foreach para mostrar apenas os números ímpares. | . ",
+    "url": "/Curso_Powershell/Modules/Module2/session6.html#7--exerc%C3%ADcios",
+    
+    "relUrl": "/Modules/Module2/session6.html#7--exercícios"
+  },"202": {
+    "doc": "Session 6: Loops e Iterações",
+    "title": "8. Filtrar listas com Where-Object",
+    "content": "Quando tens uma lista de elementos (ex: nomes, números, processos), podes usar o comando Where-Object para filtrar apenas os elementos que interessam. 📌 Sintaxe básica . $lista | Where-Object { condição } . Dentro das chavetas {}, usamos o símbolo especial $_ que representa o elemento atual da lista. 🔍 Exemplo 1 – Números maiores que 10 . $numeros = 5, 8, 12, 20 $maiores = $numeros | Where-Object { $_ -gt 10 } Write-Output $maiores . | $_ representa cada número da lista. | A condição $_ -gt 10 devolve apenas os que são maiores que 10. | . 🔍 Exemplo 2 – Palavras que começam por “A” . $palavras = \"Ana\", \"Bruno\", \"alface\", \"Árvore\" $comA = $palavras | Where-Object { $_ -match '^(?i)a' } Write-Output $comA . | O -match com (?i)^a verifica se começa com “A” (maiúscula ou minúscula). | . Dica: $_.Propriedade em objetos . Se estiveres a trabalhar com objetos (ex: resultado de Get-Process), podes usar $_ seguido da propriedade: . Get-Process | Where-Object { $_.CPU -gt 50 } . 🧩 Exercício – Filtrar frutas cítricas . | Cria uma lista de frutas: laranja, banana, limão, kiwi. | Usa Where-Object para obter apenas as frutas que terminam em ão. | . 🧩 Exercício – Números pares . | Cria uma lista com os números de 1 a 10. | Usa Where-Object para filtrar apenas os números pares (divisíveis por 2). | . 🧩 Exercício – Processos com muita memória . | Usa Get-Process para obter os processos. | Filtra os que usam mais de 200 MB de memória (WorkingSet &gt; 200MB). | Dica: 200 MB = 200 * 1024 * 1024 | . | . 🔗 Documentação oficial – Where-Object . ",
+    "url": "/Curso_Powershell/Modules/Module2/session6.html#8-filtrar-listas-com-where-object",
+    
+    "relUrl": "/Modules/Module2/session6.html#8-filtrar-listas-com-where-object"
+  },"203": {
+    "doc": "Session 6: Loops e Iterações",
+    "title": "9. Resumo e Boas Práticas",
+    "content": "✅ Usa for quando souberes quantas vezes vais repetir. ✅ Usa foreach para percorrer coleções. ✅ Usa while quando precisas de verificar antes de correr. ✅ Usa do-until quando queres executar pelo menos uma vez. 🔗 about_For 🔗 about_Foreach 🔗 about_While 🔗 about_Do . ",
+    "url": "/Curso_Powershell/Modules/Module2/session6.html#9-resumo-e-boas-pr%C3%A1ticas",
+    
+    "relUrl": "/Modules/Module2/session6.html#9-resumo-e-boas-práticas"
+  },"204": {
+    "doc": "Session 6: Loops e Iterações",
+    "title": "Session 6: Loops e Iterações",
+    "content": " ",
+    "url": "/Curso_Powershell/Modules/Module2/session6.html",
+    
+    "relUrl": "/Modules/Module2/session6.html"
+  },"205": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "💻 Sessão Extra: Usar o VSCode com PowerShell",
     "content": ". 🎯 Objetivo Aprender a instalar, configurar e usar o Visual Studio Code como ambiente de desenvolvimento para PowerShell. | 1. O que é o Visual Studio Code? | 2. Instalar o VSCode | 3. Instalar a extensão PowerShell | 4. Como usar o VSCode com PowerShell | 5. Recomendações de extensões úteis | 6. Configurações úteis no VSCode | 7. Atalhos úteis no VSCode | 8. Dicas finais | . ",
     "url": "/Curso_Powershell/vscode.html",
     
     "relUrl": "/vscode.html"
-  },"195": {
+  },"206": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "1. O que é o Visual Studio Code?",
     "content": "O Visual Studio Code (VSCode) é um editor de código gratuito, leve e poderoso da Microsoft. É compatível com várias linguagens de programação e tem suporte nativo para PowerShell através de extensões. Principais vantagens: . | Grátis e multiplataforma (Windows, Linux, macOS). | Extensível com milhares de extensões. | Integração com Git, Terminal e IntelliSense. | Ideal para escrever, testar e depurar scripts PowerShell. | . 🔗 Download do VSCode . ",
     "url": "/Curso_Powershell/vscode.html#1-o-que-%C3%A9-o-visual-studio-code",
     
     "relUrl": "/vscode.html#1-o-que-é-o-visual-studio-code"
-  },"196": {
+  },"207": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "2. Instalar o VSCode",
     "content": ". | Acede a https://code.visualstudio.com/ | Faz o download da versão para o teu sistema operativo. | Segue os passos da instalação (no Windows, basta clicar em “Seguinte” várias vezes). | . 💡 Após instalar, poderás abrir o VSCode a partir do menu Iniciar ou escrever code no terminal (se ativares a opção durante a instalação). ",
     "url": "/Curso_Powershell/vscode.html#2-instalar-o-vscode",
     
     "relUrl": "/vscode.html#2-instalar-o-vscode"
-  },"197": {
+  },"208": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "3. Instalar a extensão PowerShell",
     "content": ". | Abre o VSCode. | Vai ao menu lateral esquerdo e clica em Extensões (ícone de quadrado com cantos afastados). | Pesquisa por PowerShell. | Instala a extensão chamada PowerShell (publisher: Microsoft). | . 🔗 Extensão PowerShell no Marketplace . ",
     "url": "/Curso_Powershell/vscode.html#3-instalar-a-extens%C3%A3o-powershell",
     
     "relUrl": "/vscode.html#3-instalar-a-extensão-powershell"
-  },"198": {
+  },"209": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "4. Como usar o VSCode com PowerShell",
     "content": "📁 Abrir uma pasta de scripts . | Abre uma pasta onde tenhas os teus scripts .ps1. | Usa o menu File &gt; Open Folder (Ficheiro &gt; Abrir Pasta). | . ✍️ Criar um novo ficheiro .ps1 . | Vai a File &gt; New File, guarda como meuscript.ps1. | . ▶️ Executar scripts . | Podes executar o script no terminal integrado clicando em Run ou com o atalho F5 (depuração) ou Ctrl+F5 (execução simples). | O terminal aparece na parte inferior do ecrã. | . 🧠 Dicas: . | Usa Ctrl+ para aumentar e Ctrl- para reduzir o tamanho da fonte. | Usa Ctrl+Space para sugestões inteligentes de comandos (IntelliSense). | . ",
     "url": "/Curso_Powershell/vscode.html#4-como-usar-o-vscode-com-powershell",
     
     "relUrl": "/vscode.html#4-como-usar-o-vscode-com-powershell"
-  },"199": {
+  },"210": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "5. Recomendações de extensões úteis",
     "content": "| Extensão | Descrição | . | PowerShell (Microsoft) | Suporte oficial à linguagem, linting, execução e depuração. | . | Path Intellisense | Ajuda a completar caminhos de ficheiros e pastas. | . ",
     "url": "/Curso_Powershell/vscode.html#5-recomenda%C3%A7%C3%B5es-de-extens%C3%B5es-%C3%BAteis",
     
     "relUrl": "/vscode.html#5-recomendações-de-extensões-úteis"
-  },"200": {
+  },"211": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "6. Configurações úteis no VSCode",
     "content": "Podes configurar algumas opções no ficheiro settings.json ou via interface gráfica. Sugestões: . { \"editor.tabSize\": 4, // Define a tabulação como 4 espaços \"editor.insertSpaces\": true, // Usa espaços em vez de tabulações reais \"files.insertFinalNewline\": true, // Garante uma linha em branco no fim do ficheiro \"editor.rulers\": [80], // Mostra uma linha vertical na coluna 80 (boa prática) \"editor.wordWrap\": \"on\", // Ativa quebra automática de linha no editor \"editor.bracketPairColorization.enabled\": true // Ativa cores diferentes para pares de parêntesis/chaves } . Para aceder às definições JSON: . Prime Ctrl + Shift + P . Escreve Preferences: Open User Settings (JSON) . Cola as opções acima. ",
     "url": "/Curso_Powershell/vscode.html#6-configura%C3%A7%C3%B5es-%C3%BAteis-no-vscode",
     
     "relUrl": "/vscode.html#6-configurações-úteis-no-vscode"
-  },"201": {
+  },"212": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "7. Atalhos úteis no VSCode",
     "content": "| Ação | Atalho | . | Executar script (sem debug) | Ctrl + F5 | . | Executar script (com debug) | F5 | . | Terminal integrado | Ctrl + ‘ | . | Abrir extensões | Ctrl + Shift + X | . | Comando rápido | Ctrl + Shift + P | . | Ver atalhos de teclado | Ctrl + K, Ctrl + S | . ",
     "url": "/Curso_Powershell/vscode.html#7-atalhos-%C3%BAteis-no-vscode",
     
     "relUrl": "/vscode.html#7-atalhos-úteis-no-vscode"
-  },"202": {
+  },"213": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "8. Dicas finais",
     "content": "✅ Usa VSCode sempre que possível para escrever os teus scripts: tens validação, sugestões, cores e terminal integrado. ✅ Mantém o terminal PowerShell atualizado: Download PowerShell ✅ Podes também instalar o PowerShell 7+ (mais moderno e multiplataforma). 🔗 Guia Oficial – PowerShell no VSCode . ",
     "url": "/Curso_Powershell/vscode.html#8-dicas-finais",
     
     "relUrl": "/vscode.html#8-dicas-finais"
-  },"203": {
+  },"214": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "Visual Studio Code com PowerShell",
     "content": " ",
