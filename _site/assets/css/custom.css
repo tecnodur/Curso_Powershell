@@ -1,0 +1,46 @@
+/* Customize your theme's look and feel */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #2a6496;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* Fixing icon sizes */
+img, svg, i {
+    width: 24px;
+    height: 24px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.sidebar img,
+.sidebar svg,
+.sidebar i {
+    width: 18px; /* Smaller size for the sidebar */
+    height: 18px;
+}
+
+.main-content img,
+.main-content svg,
+.main-content i {
+    width: 24px; /* Adjust this value as you prefer */
+    height: 24px;
+}
