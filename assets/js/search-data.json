@@ -1359,7 +1359,7 @@
   },"194": {
     "doc": "Session 4: Scripts Temáticos com Ficheiros",
     "title": "🧭 Sessão 4: Scripts Temáticos com Ficheiros",
-    "content": ". 🎯 Objetivo Automatizar tarefas do dia-a-dia com ficheiros: contar linhas, procurar conteúdo, renomear, organizar pastas. | 1. Ler conteúdo de um ficheiro | 2. Procurar texto dentro de ficheiros | 3. Procurar por texto com expressões regulares | 4. Iterar sobre vários ficheiros . | 4.1. Renomear ficheiros automaticamente | 4.2. Organizar ficheiros por extensão | . | 5. 🧩 Exercícios . | 5.1. 🧩 Exercício 1 – Contar linhas num ficheiro | 5.2. 🧩 Exercício 2 – Procurar palavra num ficheiro | 5.3. 🧩 Exercício 5 – Renomear ficheiros com prefixo | 5.4. 🧩 Exercício 4 – Criar relatório em CSV | . | ✅ Resumo e Boas Práticas . | 📌 Comandos principais abordados | ✅ Boas práticas | . | . ",
+    "content": ". 🎯 Objetivo Automatizar tarefas do dia-a-dia com ficheiros: contar linhas, procurar conteúdo, renomear, organizar pastas. | 1. Ler conteúdo de um ficheiro | 2. Procurar texto dentro de ficheiros | 3. Procurar por texto com expressões regulares | 4. Iterar sobre vários ficheiros . | 4.1. Renomear ficheiros automaticamente | 4.2. Organizar ficheiros por extensão | . | 5. 🧩 Exercícios . | 5.1. 🧩 Exercício 1 – Contar linhas num ficheiro | 5.2. 🧩 Exercício 2 – Procurar palavra num ficheiro | 5.3. 🧩 Exercício 5 – Renomear ficheiros com prefixo | 5.4. 🧩 Exercício 4 – Criar relatório em CSV | . | 6. Substituir conteúdo em ficheiros com -replace . | 6.1. Exemplo: Substituir todas as ocorrências de “foo” por “bar” | 6.2. Exemplo com ficheiro de backup: | 6.3. 🧩 Exercício – Corrigir palavras | . | 7. ✅ Resumo e Boas Práticas . | 7.1. 📌 Comandos principais abordados | 7.2. ✅ Boas práticas | . | . ",
     "url": "/Curso_Powershell/Modules/Module3/session4.html",
     
     "relUrl": "/Modules/Module3/session4.html"
@@ -1400,341 +1400,348 @@
     "relUrl": "/Modules/Module3/session4.html#5--exercícios"
   },"200": {
     "doc": "Session 4: Scripts Temáticos com Ficheiros",
-    "title": "✅ Resumo e Boas Práticas",
-    "content": "📌 Comandos principais abordados . | Comando | Utilidade principal | . | Get-Content | Ler ficheiros de texto linha a linha | . | Select-String | Procurar palavras ou padrões dentro de ficheiros | . | Get-ChildItem | Obter listas de ficheiros e pastas | . | Rename-Item | Alterar nomes de ficheiros ou pastas | . | Move-Item | Mover ficheiros entre pastas | . | New-Item | Criar ficheiros ou pastas | . | Export-Csv | Gravar objetos num ficheiro CSV | . | Trim() | Remover espaços ou caracteres indesejados | . ✅ Boas práticas . | Usa -WhatIf sempre que estiveres a alterar, mover ou apagar ficheiros, para testares o que o comando vai fazer. | Usa Get-ChildItem -File para garantir que estás a trabalhar apenas com ficheiros (e não pastas). | Para evitar erros, valida sempre se a pasta ou ficheiro existe com Test-Path. | Quando estiveres a trabalhar com muitos ficheiros, usa -Recurse com cuidado — especialmente se usares Remove-Item. | Lembra-te que Select-String usa expressões regulares por padrão — se não quiseres esse comportamento, usa -SimpleMatch. | . 🔗 Documentação oficial: Get-Content 🔗 Documentação oficial: Select-String 🔗 Documentação oficial: Export-Csv . ",
-    "url": "/Curso_Powershell/Modules/Module3/session4.html#-resumo-e-boas-pr%C3%A1ticas",
+    "title": "6. Substituir conteúdo em ficheiros com -replace",
+    "content": "O operador -replace permite substituir texto dentro de strings. Pode ser usado com Get-Content e Set-Content para alterar o conteúdo de um ficheiro. 6.1. Exemplo: Substituir todas as ocorrências de “foo” por “bar” . | (Get-Content “arquivo.txt”) -replace ‘foo’, ‘bar’ | Set-Content “arquivo.txt” | . Este comando faz: . | Lê o conteúdo do ficheiro (Get-Content) | Substitui todas as ocorrências da palavra “foo” por “bar” com -replace | Grava novamente o resultado no mesmo ficheiro (Set-Content) | . ⚠️ Isto sobrescreve o ficheiro original. Usa com cuidado! . 6.2. Exemplo com ficheiro de backup: . | (Get-Content “original.txt”) -replace “abc”, “123” | Set-Content “modificado.txt” | . 6.3. 🧩 Exercício – Corrigir palavras . Num ficheiro chamado relatorio.txt, substitui todas as ocorrências de: . | “erado” por “errado” | “funcioario” por “funcionário” | . ",
+    "url": "/Curso_Powershell/Modules/Module3/session4.html#6-substituir-conte%C3%BAdo-em-ficheiros-com--replace",
     
-    "relUrl": "/Modules/Module3/session4.html#-resumo-e-boas-práticas"
+    "relUrl": "/Modules/Module3/session4.html#6-substituir-conteúdo-em-ficheiros-com--replace"
   },"201": {
+    "doc": "Session 4: Scripts Temáticos com Ficheiros",
+    "title": "7. ✅ Resumo e Boas Práticas",
+    "content": "7.1. 📌 Comandos principais abordados . | Comando | Utilidade principal | . | Get-Content | Ler ficheiros de texto linha a linha | . | Select-String | Procurar palavras ou padrões dentro de ficheiros | . | Get-ChildItem | Obter listas de ficheiros e pastas | . | Rename-Item | Alterar nomes de ficheiros ou pastas | . | Move-Item | Mover ficheiros entre pastas | . | New-Item | Criar ficheiros ou pastas | . | Export-Csv | Gravar objetos num ficheiro CSV | . | Trim() | Remover espaços ou caracteres indesejados | . 7.2. ✅ Boas práticas . | Usa -WhatIf sempre que estiveres a alterar, mover ou apagar ficheiros, para testares o que o comando vai fazer. | Usa Get-ChildItem -File para garantir que estás a trabalhar apenas com ficheiros (e não pastas). | Para evitar erros, valida sempre se a pasta ou ficheiro existe com Test-Path. | Quando estiveres a trabalhar com muitos ficheiros, usa -Recurse com cuidado — especialmente se usares Remove-Item. | Lembra-te que Select-String usa expressões regulares por padrão — se não quiseres esse comportamento, usa -SimpleMatch. | . 🔗 Documentação oficial: Get-Content 🔗 Documentação oficial: Select-String 🔗 Documentação oficial: Export-Csv . ",
+    "url": "/Curso_Powershell/Modules/Module3/session4.html#7--resumo-e-boas-pr%C3%A1ticas",
+    
+    "relUrl": "/Modules/Module3/session4.html#7--resumo-e-boas-práticas"
+  },"202": {
     "doc": "Session 4: Scripts Temáticos com Ficheiros",
     "title": "Session 4: Scripts Temáticos com Ficheiros",
     "content": " ",
     "url": "/Curso_Powershell/Modules/Module3/session4.html",
     
     "relUrl": "/Modules/Module3/session4.html"
-  },"202": {
+  },"203": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "🧭 Sessão 5: Estruturas Condicionais",
     "content": ". 🎯 Objetivo Aprender a criar decisões lógicas em scripts usando if, elseif, else, operadores de comparação e operadores lógicos. | 1. Introdução às Estruturas Condicionais . | 💬 Pensar como “Se… então…” | . | 2. Sintaxe básica do if | 3. Operadores de comparação e outros operadores (revisão) . | 3.1. Operadores de comparação | 3.2. Operadores lógicos | 3.3. Operadores de tipo | 3.4. Operadores de correspondência de padrões | . | 4. Inputs e Expressões Regulares . | 4.1. Pedir input ao utilizador (Read-Host) | 4.2. Introdução às Expressões Regulares (-match) . | O que é uma expressão regular? | Regras básicas de expressões regulares | Como construir uma expressão regular simples | Exemplo com -match (ignora maiúsculas/minúsculas) | Exemplo com -cmatch (distingue maiúsculas/minúsculas) | Exemplo com modificador inline (?-i) (distingue maiúsculas/minúsculas) | Sobre o uso de ^ e $ | E se quiseres encontrar todas as ocorrências? | Dicas para começar | Onde praticar Expressões Regulares? | . | 4.3. 🧩 Exercícios práticos – Inputs e Comparações (Só if) . | 🧩 Exercício 1 – Validação de nome | 🧩 Exercício 2 – Validação de número | . | . | 5. Estruturas Condicionais: else e elseif . | 5.1. O comando else . | Sintaxe: | Exemplo: | . | 5.2. O comando elseif . | Sintaxe: | Exemplo: | . | 5.3. Dicas práticas | 5.4. 🧩 Exercícios práticos – if, else, elseif . | 🧩 Exercício 1 – Maior ou menor de idade | 🧩 Exercício 2 – Classificação de notas | 🧩 Exercício 3 – Verificar se o ano é bissexto | 🧩 Exercício 4 – Contar processos ativos | 🧩 Exercício 5 – Validação de palavra-passe | . | . | 6. Resumo Final e Boas Práticas . | 6.1. O que aprendeste nesta sessão | 6.2. Boas práticas ao usar if, else, elseif | . | 7. Estruturas switch . | 7.1. Sintaxe básica do switch | 7.2. switch -Wildcard | 7.3. switch -Regex . | Expressões lógicas dentro de um switch | . | 7.4. 🧩 Exercícios práticos – switch . | 🧩 Exercício – Classificar frutas | 🧩 Exercício – Validar entradas usando padrões | 🧩 Exercício – Categorizar idade | Resumo – Estruturas switch | . | . | . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html",
     
     "relUrl": "/Modules/Module2/session5.html"
-  },"203": {
+  },"204": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "1. Introdução às Estruturas Condicionais",
     "content": "Num script, as estruturas condicionais permitem tomar decisões com base em valores ou situações. Em vez de o código correr sempre da mesma forma, conseguimos alterar o comportamento dependendo de condições específicas. Por exemplo: . | Se a idade do utilizador for maior ou igual a 18, pode votar. | Se o ficheiro for .csv, deve ser processado de forma diferente de um .txt. | Se o login falhar três vezes, o acesso é bloqueado. | . 💬 Pensar como “Se… então…” . Ao programar, estamos constantemente a decidir: . “Se isto for verdade, então faz aquilo.” . O PowerShell usa o comando if para representar estas decisões. Exemplo visual simples: . $idade = 20 if ($idade -ge 18) { Write-Output \"Podes votar.\" } . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#1-introdu%C3%A7%C3%A3o-%C3%A0s-estruturas-condicionais",
     
     "relUrl": "/Modules/Module2/session5.html#1-introdução-às-estruturas-condicionais"
-  },"204": {
+  },"205": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "2. Sintaxe básica do if",
     "content": "O comando if permite que um bloco de código seja executado apenas quando uma determinada condição é verdadeira. A estrutura básica é: . if (&lt;condição&gt;) { # Código a executar se a condição for verdadeira } . | A condição tem de resultar em $true ou $false. | As chavetas {} são obrigatórias, mesmo que o bloco tenha apenas uma linha. | . Exemplo simples: . $temperatura = 30 if ($temperatura -gt 25) { Write-Output \"Está calor hoje!\" } . Neste exemplo: . | A condição $temperatura -gt 25 avalia se a temperatura é superior a 25. | Se for verdadeira, a mensagem “Está calor hoje!” será mostrada. | . Notas importantes: . | Podes usar qualquer expressão que devolva $true ou $false. | O código dentro do if só é executado se a condição for verdadeira. | Se for falsa, o PowerShell simplesmente ignora o bloco de chavetas {}. | . 🔗 Documentação oficial: about_If . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#2-sintaxe-b%C3%A1sica-do-if",
     
     "relUrl": "/Modules/Module2/session5.html#2-sintaxe-básica-do-if"
-  },"205": {
+  },"206": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "3. Operadores de comparação e outros operadores (revisão)",
     "content": "Antes de criarmos decisões nos nossos scripts, é importante dominar os principais operadores de comparação, lógicos e de verificação de dados. ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#3-operadores-de-compara%C3%A7%C3%A3o-e-outros-operadores-revis%C3%A3o",
     
     "relUrl": "/Modules/Module2/session5.html#3-operadores-de-comparação-e-outros-operadores-revisão"
-  },"206": {
+  },"207": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "3.1. Operadores de comparação",
     "content": "Os operadores de comparação devolvem sempre $true ou $false e permitem comparar números, texto, datas ou outros objetos. | Operador | Significado | Case-sensitive | Exemplo | Resultado | . | -eq | Igual | Não | \"ana\" -eq \"Ana\" | $true | . | -ceq | Igual | Sim | \"ana\" -ceq \"Ana\" | $false | . | -ne | Diferente | Não | 5 -ne 3 | $true | . | -cne | Diferente | Sim | \"a\" -cne \"A\" | $true | . | -gt | Maior que | Não | 7 -gt 4 | $true | . | -cgt | Maior que | Sim | (comparação de strings) | Depende | . | -lt | Menor que | Não | 3 -lt 8 | $true | . | -clt | Menor que | Sim | (comparação de strings) | Depende | . | -ge | Maior ou igual | Não | 5 -ge 5 | $true | . | -cge | Maior ou igual | Sim | (comparação de strings) | Depende | . | -le | Menor ou igual | Não | 2 -le 3 | $true | . | -cle | Menor ou igual | Sim | (comparação de strings) | Depende | . ⚠️ Nota sobre comparação de texto . Quando comparas strings com operadores como -gt, -lt, -ge, -le, o PowerShell faz a comparação por ordem alfabética (lexicográfica). | A comparação é case-insensitive por omissão. | \"Ana\" é considerado igual a \"ana\" para efeitos de comparação. | Para distinguir maiúsculas de minúsculas, usa operadores como -cgt, -clt, -ceq. | . Exemplo: . \"zebra\" -gt \"abelha\" # $true \"Ana\" -ceq \"ana\" # $false . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#31-operadores-de-compara%C3%A7%C3%A3o",
     
     "relUrl": "/Modules/Module2/session5.html#31-operadores-de-comparação"
-  },"207": {
+  },"208": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "3.2. Operadores lógicos",
     "content": "Permitem combinar várias condições, tornando as decisões mais poderosas. | Operador | Descrição | Exemplo | Resultado | . | -and | E lógico | $x -gt 5 -and $y -lt 10 | $true se ambas forem verdadeiras | . | -or | OU lógico | $x -eq 10 -or $y -eq 20 | $true se uma for verdadeira | . | -not | Negação lógica | -not ($x -eq 5) | Inverte o resultado | . Exemplo prático: . $idade = 25 $nacionalidade = \"Portugal\" if (($idade -ge 18) -and ($nacionalidade -eq \"Portugal\")) { Write-Output \"Autorizado a votar.\" } . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#32-operadores-l%C3%B3gicos",
     
     "relUrl": "/Modules/Module2/session5.html#32-operadores-lógicos"
-  },"208": {
+  },"209": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "3.3. Operadores de tipo",
     "content": "Permitem verificar se um valor é de um determinado tipo de dados. | Operador | Descrição | Exemplo | Resultado | . | -is | Testa se é de um tipo | $var -is [int] | $true ou $false | . Exemplo prático: . $numero = 42 if ($numero -is [int]) { Write-Output \"É um número inteiro.\" } . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#33-operadores-de-tipo",
     
     "relUrl": "/Modules/Module2/session5.html#33-operadores-de-tipo"
-  },"209": {
+  },"210": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "3.4. Operadores de correspondência de padrões",
     "content": "Usados para trabalhar com texto baseado em padrões ou expressões regulares. | Operador | Descrição | Exemplo | Resultado | . | -like | Corresponde a padrão (wildcards) | \"Ana\" -like \"A*\" | $true | . | -match | Corresponde a expressão regular | \"ana123\" -match \"\\d{3}\" | $true | . | -contains | Verifica se uma coleção contém um valor | @(1,2,3) -contains 2 | $true | . | -in | Verifica se um valor está presente numa coleção | \"banana\" -in $frutas | $true | . Exemplo prático: . $nome = \"Ana Clara\" if ($nome -like \"Ana*\") { Write-Output \"O nome começa por Ana.\" } . 🔗 Documentação oficial: about_Comparison_Operators 🔗 Documentação oficial: about_Logical_Operators 🔗 Documentação oficial: about_Type_Operators 🔗 Documentação oficial: about_Operators . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#34-operadores-de-correspond%C3%AAncia-de-padr%C3%B5es",
     
     "relUrl": "/Modules/Module2/session5.html#34-operadores-de-correspondência-de-padrões"
-  },"210": {
+  },"211": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "4. Inputs e Expressões Regulares",
     "content": "Antes de avançarmos no controlo de fluxos (if, else, elseif), vamos fazer uma pequena pausa estratégica. Nesta secção, vais aprender duas ferramentas fundamentais para tornar os teus scripts mais dinâmicos: . | Como pedir informações ao utilizador (Read-Host). | Como validar padrões de texto usando expressões regulares (-match). | . Estas técnicas vão ser muito úteis para os exercícios práticos que vêm a seguir e para criar scripts mais interativos e inteligentes. ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#4-inputs-e-express%C3%B5es-regulares",
     
     "relUrl": "/Modules/Module2/session5.html#4-inputs-e-expressões-regulares"
-  },"211": {
+  },"212": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "4.1. Pedir input ao utilizador (Read-Host)",
     "content": "Em scripts mais dinâmicos, muitas vezes queremos perguntar algo ao utilizador e reagir de acordo com a resposta. Em PowerShell usamos o comando Read-Host. Sintaxe básica: . $variavel = Read-Host \"Mensagem para o utilizador\" . Exemplo: . $nome = Read-Host \"Qual é o teu nome?\" Write-Output \"Olá, $nome!\" . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#41-pedir-input-ao-utilizador-read-host",
     
     "relUrl": "/Modules/Module2/session5.html#41-pedir-input-ao-utilizador-read-host"
-  },"212": {
+  },"213": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "4.2. Introdução às Expressões Regulares (-match)",
     "content": "As expressões regulares (ou regex) são uma maneira de procurar padrões em texto. São muito úteis para validar inputs, procurar formatos específicos, extrair partes de texto, entre outros. O que é uma expressão regular? . É uma sequência de símbolos especiais que define um padrão. Por exemplo: . | \"^\\d+$\" significa “um ou mais dígitos” (números inteiros). | \"^A.*\" significa “começa por A”. | \"^\\w+@\\w+\\.\\w+$\" pode validar emails simples. | . Em PowerShell, usamos o operador -match para aplicar expressões regulares. Por padrão, este operador é case-insensitive (ignora maiúsculas e minúsculas). Se quiseres uma correspondência sensível a maiúsculas/minúsculas, usa o operador -cmatch. Também podes usar o modificador inline (?-i) dentro da regex, por exemplo: -match \"(?-i)^[A-Z]\". Regras básicas de expressões regulares . | Símbolo | Significado | Exemplo | . | . | Qualquer caractere | \"a\", \"1\", \"%\" | . | * | Zero ou mais repetições | \"ab*\" → \"a\", \"ab\", \"abb\" | . | + | Uma ou mais repetições | \"ab+\" → \"ab\", \"abb\", não \"a\" | . | ? | Zero ou uma repetição | \"ab?\" → \"a\", \"ab\" | . | \\d | Um dígito (0–9) | \"123\" | . | \\w | Letra, número ou underscore | \"abc_123\" | . | ^ | Começo do texto | \"^Ana\" → começa por Ana | . | $ | Fim do texto | \"ana$\" → termina em ana | . | (?-i) | Torna a regex case-sensitive | \"Ana\" -match \"(?-i)^A\" | . Como construir uma expressão regular simples . Agora que já conheces os símbolos básicos, vamos ver como os combinar para criar padrões mais úteis. 1. Pensar no que queremos detetar . Antes de escrever a regex, faz estas perguntas: . | A palavra tem letras? Números? Ambos? | Há limite no número de caracteres? | Tem de começar ou terminar de uma certa forma? | . 2. Combinando os símbolos . | Para letras, números e underscores usamos \\w. | Para números apenas, usamos \\d. | Para especificar quantidade, usamos +, *, {n}, {n,m}, etc. | Para indicar início ou fim do texto, usamos ^ e $. | . Exemplo com -match (ignora maiúsculas/minúsculas) . | Pede ao utilizador um nome. | Verifica se começa por “a” ou “A”. | Mostra uma mensagem se corresponder. $nome = Read-Host \"Introduz o teu nome\" if ($nome -match \"^a\") { Write-Output \"maiúsculas/minúsculas\" } . | . Exemplo com -cmatch (distingue maiúsculas/minúsculas) . | Pede ao utilizador um nome. | Verifica se começa por “A” maiúsculo exatamente. | Mostra uma mensagem se corresponder. $nome = Read-Host \"Introduz o teu nome\" if ($nome -cmatch \"^A\") { Write-Output \"Começa por A maiúsculo (case-sensitive)\" } . | . Exemplo com modificador inline (?-i) (distingue maiúsculas/minúsculas) . | Pede ao utilizador um nome. | Verifica se começa por “A” maiúsculo exatamente. | Mostra uma mensagem se corresponder. $nome = Read-Host \"Introduz o teu nome\" if ($nome -match \"(?-i)^A\") { Write-Output \"Começa por A maiúsculo (case-sensitive)\" } . | . Sobre o uso de ^ e $ . | O símbolo ^ indica o início da string. | O símbolo $ indica o fim da string. | . Se quiseres apenas verificar se existe um padrão em qualquer parte da string, não precisas de usar ^ nem $. Exemplo: . \"Ficheiro123.txt\" -match \"\\d+\" # True (encontra o \"123\") \"Ficheiro123.txt\" -match \"^\\d+$\" # False (não é só um número) . E se quiseres encontrar todas as ocorrências? . O operador -match apenas devolve: . | $true se encontrar uma correspondência, | E guarda apenas a primeira em $matches[0]. | . Se precisares de todas as ocorrências (global match), usa: . $resultado = [regex]::Matches($texto, $padrão) . Exemplo: . $texto = \"Ana1, Teste9, _valor2\" $regex = \"\\w+\\d\" $matches = [regex]::Matches($texto, $regex) foreach ($m in $matches) { Write-Output $m.Value } . Isto vai devolver todas as palavras que terminam em número. 💡 Dica: No site regex101.com, ativa a opção g (global) para veres todos os matches — por defeito, só mostra o primeiro. 3. Exemplos práticos . Detectar palavras como egyt1, _sdag4rg, Ana . Padrão: “Um ou mais caracteres que sejam letras, números ou underscore” . Expressão regular: . ^\\w+$ . Explicação: . | ^ ➔ início do texto | \\w+ ➔ uma ou mais letras, números ou underscores | $ ➔ fim do texto | . Detectar palavras que terminam em número . Exemplo: Ana1, Teste9, _valor2 . Expressão regular: . ^\\w+\\d$ . Explicação: . | ^\\w+ ➔ começa com uma ou mais letras/números/underscores | \\d ➔ termina com um único dígito | $ ➔ fim do texto | . Detectar uma palavra com exatamente 4 letras seguidas de 1 número . Exemplo: abcd1, test9 . Expressão regular: . ^\\w{4}\\d$ . Explicação: . | ^\\w{4} ➔ quatro caracteres que podem ser letras, números ou underscores | \\d ➔ um único dígito | $ ➔ fim do texto | . Dicas para começar . | Experimenta padrões simples primeiro. | Testa exemplos reais no PowerShell com -match. | Vai adicionando complexidade aos poucos. | . Onde praticar Expressões Regulares? . Podes aprender e construir expressões regulares utilizando a documentação oficial da Microsoft: . 🔗 Quick Reference – Regular Expression Language (Microsoft) 🔗 about_Comparison_Operators (PowerShell) . Podes testar expressões regulares compatíveis com PowerShell no site regex101.com, escolhendo a opção .NET 7.0 (C#) como linguagem. ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#42-introdu%C3%A7%C3%A3o-%C3%A0s-express%C3%B5es-regulares--match",
     
     "relUrl": "/Modules/Module2/session5.html#42-introdução-às-expressões-regulares--match"
-  },"213": {
+  },"214": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "4.3. 🧩 Exercícios práticos – Inputs e Comparações (Só if)",
     "content": "Antes de avançarmos para else, vamos praticar apenas com if. 🧩 Exercício 1 – Validação de nome . | Pede ao utilizador para introduzir um nome (Read-Host). | Verifica se o nome começa pela letra “A” (maiúscula ou minúscula). | Se começar por A, mostra a mensagem “Nome começa por A”. Podes usar o operador -match com o padrão (?i)^a. | . Resposta $nome = Read-Host \"Introduz o teu nome\" if ($nome -match '^(?i)a') { Write-Output \"Nome começa por A\" } . 🧩 Exercício 2 – Validação de número . | Pede ao utilizador para introduzir um número (Read-Host). | Confirma se é um número usando a expressão regular ^\\d+$. | Se for número, mostra “Número válido”. | . Resposta $valor = Read-Host \"Introduz um número\" if ($valor -match '^\\d+$') { Write-Output \"Número válido\" } . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#43--exerc%C3%ADcios-pr%C3%A1ticos--inputs-e-compara%C3%A7%C3%B5es-s%C3%B3-if",
     
     "relUrl": "/Modules/Module2/session5.html#43--exercícios-práticos--inputs-e-comparações-só-if"
-  },"214": {
+  },"215": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "5. Estruturas Condicionais: else e elseif",
     "content": "Até agora já vimos como usar o if para executar código quando uma condição é verdadeira. Agora vamos aprender a tratar: . | o que acontece se a condição for falsa (else); | como testar várias condições diferentes (elseif). | . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#5-estruturas-condicionais-else-e-elseif",
     
     "relUrl": "/Modules/Module2/session5.html#5-estruturas-condicionais-else-e-elseif"
-  },"215": {
+  },"216": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "5.1. O comando else",
     "content": "O else permite executar um bloco de código alternativo caso a condição do if seja falsa ($false). Sintaxe: . if (condição) { # Código se a condição for verdadeira } else { # Código se a condição for falsa } . Exemplo: . $idade = 16 if ($idade -ge 18) { Write-Output \"És maior de idade.\" } else { Write-Output \"És menor de idade.\" } . Neste caso, como $idade é 16, a condição é falsa e executa-se o bloco do else. ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#51-o-comando-else",
     
     "relUrl": "/Modules/Module2/session5.html#51-o-comando-else"
-  },"216": {
+  },"217": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "5.2. O comando elseif",
     "content": "O elseif permite testar várias condições diferentes, uma a seguir à outra. O PowerShell avalia cada condição pela ordem em que aparecem e executa o primeiro bloco onde a condição for verdadeira. Sintaxe: . if (condição1) { # Código se a condição1 for verdadeira } elseif (condição2) { # Código se a condição2 for verdadeira } else { # Código se nenhuma condição anterior for verdadeira } . Exemplo: . $nota = 15 if ($nota -ge 18) { Write-Output \"Excelente!\" } elseif ($nota -ge 14) { Write-Output \"Bom!\" } elseif ($nota -ge 10) { Write-Output \"Suficiente.\" } else { Write-Output \"Reprovado.\" } . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#52-o-comando-elseif",
     
     "relUrl": "/Modules/Module2/session5.html#52-o-comando-elseif"
-  },"217": {
+  },"218": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "5.3. Dicas práticas",
     "content": ". | Usa parênteses () à volta da condição. | Usa chavetas {} sempre, mesmo para blocos de uma só linha. | Mantém o código indentado para melhor leitura. | Começa sempre pelos casos mais prováveis ou mais importantes no if. | Se houver apenas dois caminhos possíveis, usa if/else. | Se houver vários caminhos possíveis, usa if/elseif/else. | . 🔗 Documentação oficial: about_If . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#53-dicas-pr%C3%A1ticas",
     
     "relUrl": "/Modules/Module2/session5.html#53-dicas-práticas"
-  },"218": {
+  },"219": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "5.4. 🧩 Exercícios práticos – if, else, elseif",
     "content": ". 🧩 Exercício 1 – Maior ou menor de idade . | Pede ao utilizador a idade (Read-Host). | Se a idade for maior ou igual a 18, mostra “És maior de idade.” | Caso contrário, mostra “És menor de idade.” | . Resposta $idade = Read-Host \"Introduz a tua idade\" if ($idade -ge 18) { Write-Output \"És maior de idade.\" } else { Write-Output \"És menor de idade.\" } . 🧩 Exercício 2 – Classificação de notas . | Pede ao utilizador uma nota de 0 a 20 (Read-Host). | Mostra: . | Se a nota for maior ou igual a 18 → “Excelente!” | Se for maior ou igual a 14 → “Bom!” | Se for maior ou igual a 10 → “Suficiente.” | Caso contrário → “Reprovado.” | . | . Resposta $nota = Read-Host \"Introduz a tua nota\" if ($nota -ge 18) { Write-Output \"Excelente!\" } elseif ($nota -ge 14) { Write-Output \"Bom!\" } elseif ($nota -ge 10) { Write-Output \"Suficiente.\" } else { Write-Output \"Reprovado.\" } . 🧩 Exercício 3 – Verificar se o ano é bissexto . | Pede ao utilizador um ano (Read-Host). | Verifica se é bissexto: . | Divisível por 4 e não por 100, ou divisível por 400. | . | Mostra: . | “Ano bissexto.” ou “Ano comum.” | . | . Resposta $ano = Read-Host \"Introduz um ano\" if ((($ano % 4) -eq 0 -and ($ano % 100) -ne 0) -or (($ano % 400) -eq 0)) { Write-Output \"Ano bissexto.\" } else { Write-Output \"Ano comum.\" } . 🧩 Exercício 4 – Contar processos ativos . | Usa Get-Process para listar os processos. | Conta quantos processos estão ativos. | Se houver mais de 100 processos: . | Mostra “Muitos processos!” | . | Caso contrário: . | Mostra “Número normal de processos.” | . | . Resposta $processos = Get-Process $total = $processos.Count if ($total -gt 100) { Write-Output \"Muitos processos!\" } else { Write-Output \"Número normal de processos.\" } . 🧩 Exercício 5 – Validação de palavra-passe . | Pede ao utilizador uma palavra-passe (Read-Host). | Se a palavra-passe tiver menos de 6 caracteres, mostra “Palavra-passe muito curta.” | Se tiver entre 6 e 10 caracteres, mostra “Palavra-passe aceitável.” | Se tiver mais de 10 caracteres, mostra “Palavra-passe forte.” | . Resposta $password = Read-Host \"Introduz a tua palavra-passe\" if ($password.Length -lt 6) { Write-Output \"Palavra-passe muito curta.\" } elseif ($password.Length -le 10) { Write-Output \"Palavra-passe aceitável.\" } else { Write-Output \"Palavra-passe forte.\" } . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#54--exerc%C3%ADcios-pr%C3%A1ticos--if-else-elseif",
     
     "relUrl": "/Modules/Module2/session5.html#54--exercícios-práticos--if-else-elseif"
-  },"219": {
+  },"220": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "6. Resumo Final e Boas Práticas",
     "content": ". ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#6-resumo-final-e-boas-pr%C3%A1ticas",
     
     "relUrl": "/Modules/Module2/session5.html#6-resumo-final-e-boas-práticas"
-  },"220": {
+  },"221": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "6.1. O que aprendeste nesta sessão",
     "content": ". | Como usar estruturas condicionais (if, else, elseif) para tomar decisões em scripts. | Como trabalhar com operadores de comparação (-eq, -ne, -gt, -lt, etc.). | Como usar operadores lógicos (-and, -or). | Como receber inputs do utilizador (Read-Host). | Como validar texto usando expressões regulares (-match). | . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#61-o-que-aprendeste-nesta-sess%C3%A3o",
     
     "relUrl": "/Modules/Module2/session5.html#61-o-que-aprendeste-nesta-sessão"
-  },"221": {
+  },"222": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "6.2. Boas práticas ao usar if, else, elseif",
     "content": "✅ Usa parênteses () nas condições: Ajuda a ler melhor e evita erros. ✅ Usa chavetas {} sempre, mesmo para uma linha: Dá clareza e evita confusões em scripts maiores. ✅ Indenta o código dentro dos blocos: Facilita a leitura, manutenção e debugging. ✅ Começa com o caso mais provável: Assim o script executa mais rápido em cenários comuns. ✅ Usa else apenas se fizer sentido: Se não houver uma ação clara para o caso contrário, o else pode ser evitado. ✅ Testa sempre todos os caminhos: Garante que o teu script funciona corretamente em todos os cenários. 🔗 Documentação oficial – about_If (PowerShell) . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#62-boas-pr%C3%A1ticas-ao-usar-if-else-elseif",
     
     "relUrl": "/Modules/Module2/session5.html#62-boas-práticas-ao-usar-if-else-elseif"
-  },"222": {
+  },"223": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "7. Estruturas switch",
     "content": "Aprendeste a usar if, else e elseif para tomar decisões no teu script. Agora vais aprender uma outra estrutura condicional: o switch. | Permite comparar uma variável com vários valores diferentes. | Permite usar wildcards (*) e expressões regulares (padrões mais avançados). | . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#7-estruturas-switch",
     
     "relUrl": "/Modules/Module2/session5.html#7-estruturas-switch"
-  },"223": {
+  },"224": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "7.1. Sintaxe básica do switch",
     "content": "switch ($variavel) { \"valor1\" { # Código a executar se $variavel for \"valor1\" } \"valor2\" { # Código a executar se $variavel for \"valor2\" } default { # Código a executar se não corresponder a nenhum valor } } . | O bloco default é opcional. | . Exemplo básico: . $dia = \"Terça\" switch ($dia) { \"Segunda\" { Write-Output \"Início da semana.\" } \"Terça\" { Write-Output \"Segundo dia de trabalho.\" } \"Quarta\" { Write-Output \"Metade da semana!\" } default { Write-Output \"Outro dia.\" } } . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#71-sintaxe-b%C3%A1sica-do-switch",
     
     "relUrl": "/Modules/Module2/session5.html#71-sintaxe-básica-do-switch"
-  },"224": {
+  },"225": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "7.2. switch -Wildcard",
     "content": "Se quiseres usar wildcards (*, ?, etc.), basta acrescentares o parâmetro -Wildcard. switch -Wildcard ($variavel) { \"A*\" { # Começa por A } \"*Z\" { # Termina em Z } default { # Nenhum dos padrões } } . Exemplo: . $palavra = \"Ana\" switch -Wildcard ($palavra) { \"A*\" { Write-Output \"Começa por A\" } \"*z\" { Write-Output \"Termina em z\" } default { Write-Output \"Outro padrão\" } } . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#72-switch--wildcard",
     
     "relUrl": "/Modules/Module2/session5.html#72-switch--wildcard"
-  },"225": {
+  },"226": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "7.3. switch -Regex",
     "content": "Se quiseres comparar usando padrões de expressões regulares, usa -Regex. switch -Regex ($variavel) { \"^\\d+$\" { # Só números } \"^[A-Z]\" { # Começa por maiúscula } default { # Outro caso } } . Exemplo: . $texto = \"12345\" switch -Regex ($texto) { \"^\\d+$\" { Write-Output \"É um número!\" } \"^[A-Z]\" { Write-Output \"Começa com letra maiúscula!\" } default { Write-Output \"Outro padrão\" } } . Expressões lógicas dentro de um switch . Para além de comparar valores diretamente, o switch também pode usar expressões booleanas personalizadas . Cada bloco pode conter uma condição lógica que é avaliada como $true ou $false. Quando a condição for verdadeira, o bloco correspondente é executado. Exemplo: Categorizar fruta com base em arrays . $dia = Read-Host \"Introduz um dia da semana\" switch ($dia) { { $_ -in @(\"segunda\", \"terça\", \"quarta\", \"quinta\", \"sexta\") } { Write-Output \"Dia útil\" } { $_ -in @(\"sábado\", \"domingo\") } { Write-Output \"Fim de semana\" } default { Write-Output \"Dia inválido\" } } . Neste exemplo: . | $_ representa o valor inserido ($dia). | O operador -in verifica se esse valor pertence a um dos arrays definidos. | Cada condição devolve $true ou $false, e o primeiro bloco que for verdadeiro é executado. Este tipo de uso é útil quando queres agrupar condições complexas ou verificar se o valor pertence a uma coleção de possibilidades, sem escrever vários case separados. | . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#73-switch--regex",
     
     "relUrl": "/Modules/Module2/session5.html#73-switch--regex"
-  },"226": {
+  },"227": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "7.4. 🧩 Exercícios práticos – switch",
     "content": "🧩 Exercício – Classificar frutas . | Cria uma variável $fruta. | Usa switch para: . | Mostrar “Fruta cítrica” se for “laranja”, “limão” ou “tangerina”. | Mostrar “Fruta tropical” se for “banana”, “manga” ou “ananás”. | Mostrar “Outra fruta” caso contrário. | . | . Resposta $fruta = \"manga\" switch ($fruta) { \"laranja\" { Write-Output \"Fruta cítrica\" } \"limão\" { Write-Output \"Fruta cítrica\" } \"tangerina\" { Write-Output \"Fruta cítrica\" } \"banana\" { Write-Output \"Fruta tropical\" } \"manga\" { Write-Output \"Fruta tropical\" } \"ananás\" { Write-Output \"Fruta tropical\" } default { Write-Output \"Outra fruta\" } } . 🧩 Exercício – Validar entradas usando padrões . | Pede ao utilizador para escrever uma palavra. | Usa switch -Regex para: . | Mostrar “Número encontrado” se for apenas números (^\\d+$). | Mostrar “Começa com letra maiúscula” se começar por letra maiúscula (^[A-Z]). | Mostrar “Outro tipo de entrada” caso contrário. | . | . Resposta $entrada = Read-Host \"Introduz uma palavra\" switch -Regex ($entrada) { \"^\\d+$\" { Write-Output \"Número encontrado\" } \"^[A-Z]\" { Write-Output \"Começa com letra maiúscula\" } default { Write-Output \"Outro tipo de entrada\" } } . 🧩 Exercício – Categorizar idade . | Pede ao utilizador para introduzir a idade. | Usa switch com expressões lógicas para: . | Mostrar “Menor de idade” se for menor que 18. | Mostrar “Adulto” se estiver entre 18 e 64. | Mostrar “Senior” se tiver 65 ou mais. | . | . Resposta $idade = Read-Host \"Introduz a tua idade\" switch ($idade) { { $_ -lt 18 } { Write-Output \"Menor de idade\" } { $_ -ge 18 -and $_ -lt 65 } { Write-Output \"Adulto\" } { $_ -ge 65 } { Write-Output \"Senior\" } default { Write-Output \"Valor inválido\" } } . Resumo – Estruturas switch . O que aprendeste nesta sessão: . | Como usar o comando switch para simplificar múltiplas condições. | Como usar switch -Wildcard para trabalhar com padrões de texto que incluem * e ?. | Como usar switch -Regex para testar expressões regulares de forma elegante. | Boas práticas no uso do switch para tornar o código mais limpo e fácil de manter. | . Boas práticas ao usar switch: . ✅ Usa switch quando tens várias comparações possíveis para o mesmo valor. ✅ Prefere switch -Wildcard para comparar terminações ou padrões simples (ex: “*.pdf”). ✅ Prefere switch -Regex quando precisas de correspondências mais poderosas (ex: validar se é um número). ✅ Inclui sempre um default para tratar casos não previstos. ✅ Mantém o código dentro de cada bloco {} simples e bem indentado. 🔗 Documentação oficial – about_Switch (PowerShell) . ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html#74--exerc%C3%ADcios-pr%C3%A1ticos--switch",
     
     "relUrl": "/Modules/Module2/session5.html#74--exercícios-práticos--switch"
-  },"227": {
+  },"228": {
     "doc": "Session 5: Estruturas Condicionais",
     "title": "Session 5: Estruturas Condicionais",
     "content": " ",
     "url": "/Curso_Powershell/Modules/Module2/session5.html",
     
     "relUrl": "/Modules/Module2/session5.html"
-  },"228": {
+  },"229": {
     "doc": "Session 6: Loops e Iterações",
     "title": "🧭 Sessão 6: Loops e Iterações",
     "content": ". 🎯 Objetivo Aprender a repetir blocos de código com diferentes tipos de loops em PowerShell: for, foreach, while e do-until, e perceber como aplicá-los em cenários reais. | 1. Introdução aos Loops | 2. O loop for . | Sintaxe: | Exemplo: contar de 1 a 5 | . | 3. O loop foreach . | Sintaxe: | Exemplo: listar nomes | Alternativa: usar 1..10 para gerar uma lista de números | . | 4. O loop while . | Sintaxe: | Exemplo: contar até 3 | . | 5. O loop do-until . | Sintaxe: | Exemplo: pedir número até ser maior que 10 | . | 6. Comandos especiais em loops: break e continue . | break | continue | 🧠 Dicas práticas | . | 7. 🧩 Exercícios . | 🧩 Exercício – Script contagem.ps1 com for | 🧩 Exercício – Script listar_processos.ps1 com foreach | 🧩 Exercício – Script servicos_parados.ps1 com foreach | 🧩 Exercício – Script esperar_minuto.ps1 com while | 🧩 Exercício – Script encontrar_notepad.ps1 com do-until | 🧩 Exercício – Script ignorar_pares.ps1 com continue | . | 8. Filtrar listas com Where-Object . | 📌 Sintaxe básica | 🔍 Exemplo 1 – Números maiores que 10 | 🔍 Exemplo 2 – Palavras que começam por “A” | Dica: $_.Propriedade em objetos | 🧩 Exercício – Filtrar frutas cítricas | 🧩 Exercício – Números pares | 🧩 Exercício – Processos com muita memória | . | 9. Resumo e Boas Práticas | . ",
     "url": "/Curso_Powershell/Modules/Module2/session6.html",
     
     "relUrl": "/Modules/Module2/session6.html"
-  },"229": {
+  },"230": {
     "doc": "Session 6: Loops e Iterações",
     "title": "1. Introdução aos Loops",
     "content": "Em programação, muitas vezes precisamos de repetir ações: processar vários itens, tentar até uma condição ser verdadeira, validar inputs, etc. Em vez de copiar e colar código várias vezes, usamos loops. “Enquanto (ou até que) uma condição for verdadeira, repete este bloco de código.” . ",
     "url": "/Curso_Powershell/Modules/Module2/session6.html#1-introdu%C3%A7%C3%A3o-aos-loops",
     
     "relUrl": "/Modules/Module2/session6.html#1-introdução-aos-loops"
-  },"230": {
+  },"231": {
     "doc": "Session 6: Loops e Iterações",
     "title": "2. O loop for",
     "content": "O for é usado quando sabemos de antemão quantas vezes queremos repetir. Sintaxe: . for (&lt;inicialização&gt;; &lt;condição&gt;; &lt;incremento&gt;) { # Código a repetir } . | Inicialização: define a variável de controlo (ex: $i = 0). | Condição: quando for falsa, o loop termina. | Incremento: atualiza a variável em cada repetição. | . Exemplo: contar de 1 a 5 . for ($i = 1; $i -le 5; $i++) { Write-Output \"Valor atual: $i\" } . ",
     "url": "/Curso_Powershell/Modules/Module2/session6.html#2-o-loop-for",
     
     "relUrl": "/Modules/Module2/session6.html#2-o-loop-for"
-  },"231": {
+  },"232": {
     "doc": "Session 6: Loops e Iterações",
     "title": "3. O loop foreach",
     "content": "O foreach é usado para percorrer todos os itens de uma coleção (array, lista, etc.). Sintaxe: . foreach ($item in $colecao) { # Código a executar para cada item } . Exemplo: listar nomes . $nomes = @(\"Ana\", \"Bruno\", \"Carlos\") foreach ($nome in $nomes) { Write-Output \"Nome: $nome\" } . Alternativa: usar 1..10 para gerar uma lista de números . Se quiseres simplesmente criar um conjunto de números sequenciais (por exemplo, de 1 a 10), podes usar o operador .. (range): . $numeros = 1..10 foreach ($n in $numeros) { Write-Output \"Número: $n\" } . ℹ1..10 cria automaticamente um array com os números de 1 a 10. É uma forma rápida e prática de gerar sequências numéricas. — . ",
     "url": "/Curso_Powershell/Modules/Module2/session6.html#3-o-loop-foreach",
     
     "relUrl": "/Modules/Module2/session6.html#3-o-loop-foreach"
-  },"232": {
+  },"233": {
     "doc": "Session 6: Loops e Iterações",
     "title": "4. O loop while",
     "content": "O while executa enquanto uma condição for verdadeira. Sintaxe: . while (&lt;condição&gt;) { # Código a repetir } . | Se a condição for falsa desde o início, o while não executa nenhuma vez. | . Exemplo: contar até 3 . $i = 1 while ($i -le 3) { Write-Output \"Contagem: $i\" $i++ } . ",
     "url": "/Curso_Powershell/Modules/Module2/session6.html#4-o-loop-while",
     
     "relUrl": "/Modules/Module2/session6.html#4-o-loop-while"
-  },"233": {
+  },"234": {
     "doc": "Session 6: Loops e Iterações",
     "title": "5. O loop do-until",
     "content": "O do-until executa sempre pelo menos uma vez e repete até a condição ser verdadeira. Sintaxe: . do { # Código a repetir } until (&lt;condição&gt;) . | Inverso do while: o loop corre até a condição ser verdadeira. | . Exemplo: pedir número até ser maior que 10 . do { $numero = Read-Host \"Introduz um número maior que 10\" } until ([int]$numero -gt 10) Write-Output \"Obrigado! Introduziste: $numero\" . ",
     "url": "/Curso_Powershell/Modules/Module2/session6.html#5-o-loop-do-until",
     
     "relUrl": "/Modules/Module2/session6.html#5-o-loop-do-until"
-  },"234": {
+  },"235": {
     "doc": "Session 6: Loops e Iterações",
     "title": "6. Comandos especiais em loops: break e continue",
     "content": "Dentro de loops, podemos usar dois comandos especiais para controlar o fluxo de execução: . break . | Interrompe o loop imediatamente. | O código salta para depois do loop. | . Exemplo: parar ao encontrar um valor . $nomes = @(\"Ana\", \"Bruno\", \"Carlos\") foreach ($nome in $nomes) { if ($nome -eq \"Bruno\") { break } Write-Output \"Nome: $nome\" } . Neste exemplo: . | O loop para imediatamente quando encontra “Bruno”. | “Carlos” nunca é mostrado. | . continue . | Salta para a próxima iteração do loop, sem terminar o loop. | O código depois do continue dentro do loop não é executado. | . Exemplo: ignorar um valor . $nomes = @(\"Ana\", \"Bruno\", \"Carlos\") foreach ($nome in $nomes) { if ($nome -eq \"Bruno\") { continue } Write-Output \"Nome: $nome\" } . Neste exemplo: . | “Bruno” é ignorado. | “Ana” e “Carlos” são mostrados. | . 🧠 Dicas práticas . | Comando | Uso principal | . | break | Parar o loop totalmente | . | continue | Saltar apenas a iteração atual | . ",
     "url": "/Curso_Powershell/Modules/Module2/session6.html#6-comandos-especiais-em-loops-break-e-continue",
     
     "relUrl": "/Modules/Module2/session6.html#6-comandos-especiais-em-loops-break-e-continue"
-  },"235": {
+  },"236": {
     "doc": "Session 6: Loops e Iterações",
     "title": "7. 🧩 Exercícios",
     "content": "🧩 Exercício – Script contagem.ps1 com for . Cria um script contagem.ps1 que: . | Conta de 10 até 1 (a descer) usando for. | Mostra cada número com Write-Output. | . Resposta # contagem.ps1 # Conta de 10 até 1 for ($i = 10; $i -ge 1; $i--) { Write-Output \"Número: $i\" } . 🧩 Exercício – Script listar_processos.ps1 com foreach . Cria um script listar_processos.ps1 que: . | Usa Get-Process para obter a lista de processos. | Mostra o nome de cada processo usando foreach. | . Resposta # listar_processos.ps1 # Lista todos os processos ativos $processos = Get-Process foreach ($proc in $processos) { Write-Output \"Processo: $($proc.Name)\" } . 🧩 Exercício – Script servicos_parados.ps1 com foreach . Cria um script servicos_parados.ps1 que: . | Usa Get-Service. | Mostra apenas os serviços que estão parados (Status -eq \"Stopped\"). | . Resposta # servicos_parados.ps1 # Lista serviços parados no sistema $servicos = Get-Service foreach ($svc in $servicos) { if ($svc.Status -eq \"Stopped\") { Write-Output \"Serviço parado: $($svc.Name)\" } } . 🧩 Exercício – Script esperar_minuto.ps1 com while . Cria um script esperar_minuto.ps1 que: . | Usa while para esperar até o minuto atual ser múltiplo de 5. | Mostra o minuto quando for encontrado. | . Resposta # esperar_minuto.ps1 # Espera até o minuto atual ser múltiplo de 5 $minuto = (Get-Date).Minute while ($minuto % 5 -ne 0) { Write-Output \"Minuto atual: $minuto\" Start-Sleep -Seconds 10 $minuto = (Get-Date).Minute } Write-Output \"Minuto múltiplo de 5 encontrado: $minuto\" . 🧩 Exercício – Script encontrar_notepad.ps1 com do-until . Cria um script encontrar_notepad.ps1 que: De 5 em 5 segundos, verifica se o processo “notepad” está aberto. Enquanto o Notepad não estiver aberto, o script deve: . | Escrever no terminal que o Notepad ainda não foi encontrado. | . Assim que o Notepad estiver aberto, o script deve: . | Escrever no terminal que o Notepad foi encontrado. | Terminar a execução. | . Resposta # encontrar_notepad.ps1 # Procura o processo notepad até o encontrar do { $proc = Get-Process -Name \"notepad\" -ErrorAction SilentlyContinue if (-not $proc) { Write-Output \"Notepad ainda não encontrado...\" Start-Sleep -Seconds 5 } } until ($proc) Write-Output \"Processo notepad encontrado!\" . 🧩 Exercício – Script ignorar_pares.ps1 com continue . Cria um script ignorar_pares.ps1 que: . | Cria um array com os números de 1 a 10. | Usa foreach para mostrar apenas os números ímpares. | . Resposta # ignorar_pares.ps1 # Mostra apenas números ímpares de 1 a 10 $numeros = 1..10 foreach ($n in $numeros) { if ($n % 2 -eq 0) { continue } Write-Output \"Número ímpar: $n\" } . ",
     "url": "/Curso_Powershell/Modules/Module2/session6.html#7--exerc%C3%ADcios",
     
     "relUrl": "/Modules/Module2/session6.html#7--exercícios"
-  },"236": {
+  },"237": {
     "doc": "Session 6: Loops e Iterações",
     "title": "8. Filtrar listas com Where-Object",
     "content": "Quando tens uma lista de elementos (ex: nomes, números, processos), podes usar o comando Where-Object para filtrar apenas os elementos que interessam. 📌 Sintaxe básica . $lista | Where-Object { condição } . Dentro das chavetas {}, usamos o símbolo especial $_ que representa o elemento atual da lista. 🔍 Exemplo 1 – Números maiores que 10 . $numeros = 5, 8, 12, 20 $maiores = $numeros | Where-Object { $_ -gt 10 } Write-Output $maiores . | $_ representa cada número da lista. | A condição $_ -gt 10 devolve apenas os que são maiores que 10. | . 🔍 Exemplo 2 – Palavras que começam por “A” . $palavras = \"Ana\", \"Bruno\", \"alface\", \"Árvore\" $comA = $palavras | Where-Object { $_ -cmatch '^a' } Write-Output $comA . | O -cmatch faz a correspondência case-sensitive. | . Dica: $_.Propriedade em objetos . Se estiveres a trabalhar com objetos (ex: resultado de Get-Process), podes usar $_ seguido da propriedade: . Get-Process | Where-Object { $_.CPU -gt 50 } . 🧩 Exercício – Filtrar frutas cítricas . | Cria uma lista de frutas: laranja, banana, limão, kiwi. | Usa Where-Object para obter apenas as frutas que terminam em ão. | . Resposta $frutas = \"laranja\", \"banana\", \"limão\", \"kiwi\" $citricas = $frutas | Where-Object { $_ -like \"*ão\" } Write-Output $citricas . 🧩 Exercício – Números pares . | Cria uma lista com os números de 1 a 10. | Usa Where-Object para filtrar apenas os números pares (divisíveis por 2). | . Resposta $numeros = 1..10 $pares = $numeros | Where-Object { $_ % 2 -eq 0 } Write-Output $pares . 🧩 Exercício – Processos com muita memória . | Usa Get-Process para obter os processos. | Filtra os que usam mais de 200 MB de memória (WorkingSet &gt; 200MB). | Dica: 200 MB = 200 * 1024 * 1024 | . | . Resposta Get-Process | Where-Object { $_.WorkingSet -gt (200 * 1024 * 1024) } . 🔗 Documentação oficial – Where-Object . ",
     "url": "/Curso_Powershell/Modules/Module2/session6.html#8-filtrar-listas-com-where-object",
     
     "relUrl": "/Modules/Module2/session6.html#8-filtrar-listas-com-where-object"
-  },"237": {
+  },"238": {
     "doc": "Session 6: Loops e Iterações",
     "title": "9. Resumo e Boas Práticas",
     "content": "✅ Usa for quando souberes quantas vezes vais repetir. ✅ Usa foreach para percorrer coleções. ✅ Usa while quando precisas de verificar antes de correr. ✅ Usa do-until quando queres executar pelo menos uma vez. 🔗 about_For 🔗 about_Foreach 🔗 about_While 🔗 about_Do . ",
     "url": "/Curso_Powershell/Modules/Module2/session6.html#9-resumo-e-boas-pr%C3%A1ticas",
     
     "relUrl": "/Modules/Module2/session6.html#9-resumo-e-boas-práticas"
-  },"238": {
+  },"239": {
     "doc": "Session 6: Loops e Iterações",
     "title": "Session 6: Loops e Iterações",
     "content": " ",
     "url": "/Curso_Powershell/Modules/Module2/session6.html",
     
     "relUrl": "/Modules/Module2/session6.html"
-  },"239": {
+  },"240": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "💻 Sessão Extra: Usar o VSCode com PowerShell",
     "content": ". 🎯 Objetivo Aprender a instalar, configurar e usar o Visual Studio Code como ambiente de desenvolvimento para PowerShell. | 1. O que é o Visual Studio Code? | 2. Instalar o VSCode | 3. Instalar a extensão PowerShell | 4. Como usar o VSCode com PowerShell | 5. Recomendações de extensões úteis | 6. Configurações úteis no VSCode | 7. Atalhos úteis no VSCode | 8. Dicas finais | . ",
     "url": "/Curso_Powershell/vscode.html",
     
     "relUrl": "/vscode.html"
-  },"240": {
+  },"241": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "1. O que é o Visual Studio Code?",
     "content": "O Visual Studio Code (VSCode) é um editor de código gratuito, leve e poderoso da Microsoft. É compatível com várias linguagens de programação e tem suporte nativo para PowerShell através de extensões. Principais vantagens: . | Grátis e multiplataforma (Windows, Linux, macOS). | Extensível com milhares de extensões. | Integração com Git, Terminal e IntelliSense. | Ideal para escrever, testar e depurar scripts PowerShell. | . 🔗 Download do VSCode . ",
     "url": "/Curso_Powershell/vscode.html#1-o-que-%C3%A9-o-visual-studio-code",
     
     "relUrl": "/vscode.html#1-o-que-é-o-visual-studio-code"
-  },"241": {
+  },"242": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "2. Instalar o VSCode",
     "content": ". | Acede a https://code.visualstudio.com/ | Faz o download da versão para o teu sistema operativo. | Segue os passos da instalação (no Windows, basta clicar em “Seguinte” várias vezes). | . 💡 Após instalar, poderás abrir o VSCode a partir do menu Iniciar ou escrever code no terminal (se ativares a opção durante a instalação). ",
     "url": "/Curso_Powershell/vscode.html#2-instalar-o-vscode",
     
     "relUrl": "/vscode.html#2-instalar-o-vscode"
-  },"242": {
+  },"243": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "3. Instalar a extensão PowerShell",
     "content": ". | Abre o VSCode. | Vai ao menu lateral esquerdo e clica em Extensões (ícone de quadrado com cantos afastados). | Pesquisa por PowerShell. | Instala a extensão chamada PowerShell (publisher: Microsoft). | . 🔗 Extensão PowerShell no Marketplace . ",
     "url": "/Curso_Powershell/vscode.html#3-instalar-a-extens%C3%A3o-powershell",
     
     "relUrl": "/vscode.html#3-instalar-a-extensão-powershell"
-  },"243": {
+  },"244": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "4. Como usar o VSCode com PowerShell",
     "content": "📁 Abrir uma pasta de scripts . | Abre uma pasta onde tenhas os teus scripts .ps1. | Usa o menu File &gt; Open Folder (Ficheiro &gt; Abrir Pasta). | . ✍️ Criar um novo ficheiro .ps1 . | Vai a File &gt; New File, guarda como meuscript.ps1. | . ▶️ Executar scripts . | Podes executar o script no terminal integrado clicando em Run ou com o atalho F5 (depuração) ou Ctrl+F5 (execução simples). | O terminal aparece na parte inferior do ecrã. | . 🧠 Dicas: . | Usa Ctrl+ para aumentar e Ctrl- para reduzir o tamanho da fonte. | Usa Ctrl+Space para sugestões inteligentes de comandos (IntelliSense). | . ",
     "url": "/Curso_Powershell/vscode.html#4-como-usar-o-vscode-com-powershell",
     
     "relUrl": "/vscode.html#4-como-usar-o-vscode-com-powershell"
-  },"244": {
+  },"245": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "5. Recomendações de extensões úteis",
     "content": "| Extensão | Descrição | . | PowerShell (Microsoft) | Suporte oficial à linguagem, linting, execução e depuração. | . | Path Intellisense | Ajuda a completar caminhos de ficheiros e pastas. | . ",
     "url": "/Curso_Powershell/vscode.html#5-recomenda%C3%A7%C3%B5es-de-extens%C3%B5es-%C3%BAteis",
     
     "relUrl": "/vscode.html#5-recomendações-de-extensões-úteis"
-  },"245": {
+  },"246": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "6. Configurações úteis no VSCode",
     "content": "Podes configurar algumas opções no ficheiro settings.json ou via interface gráfica. Sugestões: . { \"editor.tabSize\": 4, // Define a tabulação como 4 espaços \"editor.insertSpaces\": true, // Usa espaços em vez de tabulações reais \"files.insertFinalNewline\": true, // Garante uma linha em branco no fim do ficheiro \"editor.rulers\": [80], // Mostra uma linha vertical na coluna 80 (boa prática) \"editor.wordWrap\": \"on\", // Ativa quebra automática de linha no editor \"editor.bracketPairColorization.enabled\": true // Ativa cores diferentes para pares de parêntesis/chaves } . Para aceder às definições JSON: . Prime Ctrl + Shift + P . Escreve Preferences: Open User Settings (JSON) . Cola as opções acima. ",
     "url": "/Curso_Powershell/vscode.html#6-configura%C3%A7%C3%B5es-%C3%BAteis-no-vscode",
     
     "relUrl": "/vscode.html#6-configurações-úteis-no-vscode"
-  },"246": {
+  },"247": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "7. Atalhos úteis no VSCode",
     "content": "| Ação | Atalho | . | Executar script (sem debug) | Ctrl + F5 | . | Executar script (com debug) | F5 | . | Terminal integrado | Ctrl + ‘ | . | Abrir extensões | Ctrl + Shift + X | . | Comando rápido | Ctrl + Shift + P | . | Ver atalhos de teclado | Ctrl + K, Ctrl + S | . ",
     "url": "/Curso_Powershell/vscode.html#7-atalhos-%C3%BAteis-no-vscode",
     
     "relUrl": "/vscode.html#7-atalhos-úteis-no-vscode"
-  },"247": {
+  },"248": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "8. Dicas finais",
     "content": "✅ Usa VSCode sempre que possível para escrever os teus scripts: tens validação, sugestões, cores e terminal integrado. ✅ Mantém o terminal PowerShell atualizado: Download PowerShell ✅ Podes também instalar o PowerShell 7+ (mais moderno e multiplataforma). 🔗 Guia Oficial – PowerShell no VSCode . ",
     "url": "/Curso_Powershell/vscode.html#8-dicas-finais",
     
     "relUrl": "/vscode.html#8-dicas-finais"
-  },"248": {
+  },"249": {
     "doc": "Visual Studio Code com PowerShell",
     "title": "Visual Studio Code com PowerShell",
     "content": " ",
