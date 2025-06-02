@@ -2150,7 +2150,7 @@
   },"307": {
     "doc": "Session 6: Métodos Estáticos e Bibliotecas .NET",
     "title": "1. O que são bibliotecas e namespaces .NET?",
-    "content": "O .NET fornece centenas de funcionalidades agrupadas em bibliotecas, organizadas por namespaces (espaços de nomes). PowerShell consegue usar muitas dessas funcionalidades diretamente, pois é construído sobre .NET. Exemplos de namespaces: . | System.Math | System.IO.File | System.Net.WebClient | System.Windows.Forms | . ",
+    "content": "O .NET fornece centenas de funcionalidades agrupadas em bibliotecas, organizadas por namespaces. PowerShell consegue usar muitas dessas funcionalidades diretamente, pois é construído sobre .NET. Exemplos de namespaces: . | System.Math | System.IO.File | System.Net.WebClient | System.Windows.Forms | . ",
     "url": "/Curso_Powershell/Modules/Module4/session6.html#1-o-que-s%C3%A3o-bibliotecas-e-namespaces-net",
     
     "relUrl": "/Modules/Module4/session6.html#1-o-que-são-bibliotecas-e-namespaces-net"
